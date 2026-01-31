@@ -1,5 +1,5 @@
 import { Ollama } from "ollama";
-import { HistoricalEvent, NewsItem } from "../types/news.js";
+import { HistoricalAnalysis, HistoricalEvent, NewsItem } from "../types/news.js";
 
 const ollama = new Ollama({
   host: process.env.OLLAMA_HOST || "http://localhost:11434",
@@ -7,78 +7,96 @@ const ollama = new Ollama({
 
 const MODEL = process.env.OLLAMA_MODEL || "llama3.2";
 
-// キャッシュ: ニュースID -> 歴史的背景
-const historyCache = new Map<string, HistoricalEvent[]>();
+// キャッシュ
+const historyCache = new Map<string, HistoricalAnalysis>();
 
-const SYSTEM_PROMPT = `あなたは歴史の専門家です。ニュースの内容を分析し、関連する歴史的背景を提供してください。
+const SYSTEM_PROMPT = `あなたは歴史の専門家です。ニュースの全文を分析し、以下のJSON形式で歴史的背景に基づいた分析を返してください:
 
-以下のJSON形式で5つの歴史的イベントを返してください:
-[
-  {
-    "year": "年（例: 1945年）",
-    "title": "イベントのタイトル",
-    "description": "イベントの説明（50-100文字）",
-    "significance": "現在のニュースとの関連性（30-50文字）"
-  }
-]
+{
+  "summary": "記事の要約と歴史的な視点からの分析（200-400文字程度）。このニュースが持つ歴史的意味や、過去の類似事例との比較を含めてください。",
+  "historicalEvents": [
+    {
+      "year": "年（例: 1945年）",
+      "title": "イベントのタイトル",
+      "description": "イベントの説明（50-100文字）",
+      "significance": "現在のニュースとの関連性（30-50文字）"
+    }
+  ]
+}
 
 重要:
-- 必ずJSON配列のみを返してください
+- 必ず上記のJSON形式のみを返してください
+- summaryには記事の内容を歴史的な視点から分析した要約を記述してください
+- historicalEventsには関連する5つの歴史的イベントを含めてください
 - 説明文は日本語で記述してください
 - ニュースの地域や内容に関連する歴史的イベントを選んでください
 - 古代から現代まで、多様な時代から選んでください`;
 
-function parseHistoricalEvents(response: string): HistoricalEvent[] {
+function parseHistoricalAnalysis(response: string): HistoricalAnalysis | null {
   try {
-    // JSON配列を抽出
-    const jsonMatch = response.match(/\[[\s\S]*\]/);
+    // JSONオブジェクトを抽出
+    const jsonMatch = response.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
-      console.error("No JSON array found in response");
-      return [];
+      console.error("No JSON object found in response");
+      return null;
     }
 
     const parsed = JSON.parse(jsonMatch[0]);
-    if (!Array.isArray(parsed)) {
-      return [];
+    if (typeof parsed !== "object" || parsed === null) {
+      return null;
     }
 
-    return parsed
-      .filter(
-        (item: unknown) =>
-          typeof item === "object" &&
-          item !== null &&
-          "year" in item &&
-          "title" in item &&
-          "description" in item &&
-          "significance" in item
-      )
-      .slice(0, 5)
-      .map((item) => ({
-        year: String(item.year),
-        title: String(item.title),
-        description: String(item.description),
-        significance: String(item.significance),
-      }));
+    const summary = typeof parsed.summary === "string" ? parsed.summary : "";
+
+    let historicalEvents: HistoricalEvent[] = [];
+    if (Array.isArray(parsed.historicalEvents)) {
+      historicalEvents = parsed.historicalEvents
+        .filter(
+          (item: unknown) =>
+            typeof item === "object" &&
+            item !== null &&
+            "year" in item &&
+            "title" in item &&
+            "description" in item &&
+            "significance" in item
+        )
+        .slice(0, 5)
+        .map((item: Record<string, unknown>) => ({
+          year: String(item.year),
+          title: String(item.title),
+          description: String(item.description),
+          significance: String(item.significance),
+        }));
+    }
+
+    return { summary, historicalEvents };
   } catch (error) {
-    console.error("Failed to parse historical events:", error);
-    return [];
+    console.error("Failed to parse historical analysis:", error);
+    return null;
   }
 }
 
 export async function generateHistoricalBackground(
   news: NewsItem
-): Promise<HistoricalEvent[]> {
+): Promise<HistoricalAnalysis> {
   // キャッシュ確認
   if (historyCache.has(news.id)) {
     return historyCache.get(news.id)!;
   }
 
-  const prompt = `以下のニュースに関連する歴史的背景を提供してください:
+  const prompt = `以下のニュース記事を分析し、歴史的背景に基づいた要約と関連する歴史的イベントを提供してください:
 
-タイトル: ${news.title}
-概要: ${news.summary}
-地域: ${news.region}
-タグ: ${news.tags.join(", ")}`;
+【タイトル】
+${news.title}
+
+【地域】
+${news.region}
+
+【タグ】
+${news.tags.join(", ")}
+
+【記事全文】
+${news.content}`;
 
   try {
     const response = await ollama.chat({
@@ -92,17 +110,18 @@ export async function generateHistoricalBackground(
       },
     });
 
-    const events = parseHistoricalEvents(response.message.content);
+    const analysis = parseHistoricalAnalysis(response.message.content);
 
     // キャッシュに保存
-    if (events.length > 0) {
-      historyCache.set(news.id, events);
+    if (analysis && (analysis.summary || analysis.historicalEvents.length > 0)) {
+      historyCache.set(news.id, analysis);
+      return analysis;
     }
 
-    return events;
+    return { summary: "", historicalEvents: [] };
   } catch (error) {
     console.error("Ollama API error:", error);
-    return [];
+    return { summary: "", historicalEvents: [] };
   }
 }
 

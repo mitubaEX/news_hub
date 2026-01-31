@@ -67,8 +67,9 @@ router.get("/:id", async (req: Request, res: Response) => {
 
     // 歴史的背景が要求された場合
     if (withHistory === "true" && news.relatedHistory.length === 0) {
-      const history = await generateHistoricalBackground(news);
-      news.relatedHistory = history;
+      const analysis = await generateHistoricalBackground(news);
+      news.relatedHistory = analysis.historicalEvents;
+      news.historicalSummary = analysis.summary;
     }
 
     res.json({

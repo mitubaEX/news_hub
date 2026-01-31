@@ -5,6 +5,11 @@ export interface HistoricalEvent {
   significance: string;
 }
 
+export interface HistoricalAnalysis {
+  summary: string;
+  historicalEvents: HistoricalEvent[];
+}
+
 export interface NewsItem {
   id: string;
   title: string;
@@ -14,6 +19,7 @@ export interface NewsItem {
   priority: "緊急" | "重要" | "通常";
   time: string;
   relatedHistory: HistoricalEvent[];
+  historicalSummary?: string;
   tags: string[];
   link?: string;
   source?: string;

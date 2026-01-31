@@ -14,5 +14,6 @@ export interface NewsItem {
   priority: "緊急" | "重要" | "通常";
   time: string;
   relatedHistory: HistoricalEvent[];
+  historicalSummary?: string;
   tags: string[];
 }

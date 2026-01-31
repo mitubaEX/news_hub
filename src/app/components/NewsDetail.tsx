@@ -93,11 +93,11 @@ export function NewsDetail({ news, open, onClose, loading = false }: NewsDetailP
 
             <Separator />
 
-            {/* 関連する歴史的情報 */}
+            {/* 歴史的視点からの分析 */}
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <History className="w-5 h-5 text-blue-600" />
-                <h3 className="text-lg">関連する歴史的背景</h3>
+                <h3 className="text-lg">歴史的視点からの分析</h3>
                 {loading && (
                   <Loader2 className="w-4 h-4 text-blue-600 animate-spin" />
                 )}
@@ -109,31 +109,47 @@ export function NewsDetail({ news, open, onClose, loading = false }: NewsDetailP
                   <HistorySkeleton />
                   <HistorySkeleton />
                 </div>
-              ) : news.relatedHistory.length > 0 ? (
+              ) : news.relatedHistory.length > 0 || news.historicalSummary ? (
                 <div className="space-y-4">
-                  {news.relatedHistory.map((event, index) => (
-                    <Card key={index} className="p-4 bg-blue-50 border-blue-200">
-                      <div className="flex items-start gap-3">
-                        <div className="bg-blue-600 text-white px-3 py-1 rounded text-sm font-medium whitespace-nowrap">
-                          {event.year}
-                        </div>
-                        <div className="flex-1">
-                          <h4 className="font-medium mb-2">{event.title}</h4>
-                          <p className="text-sm text-gray-700 mb-2">
-                            {event.description}
-                          </p>
-                          <p className="text-sm text-blue-700 italic">
-                            現在への影響: {event.significance}
-                          </p>
-                        </div>
-                      </div>
+                  {/* 歴史的視点からの要約 */}
+                  {news.historicalSummary && (
+                    <Card className="p-4 bg-gradient-to-r from-blue-50 to-purple-50 border-blue-200">
+                      <h4 className="font-medium mb-2 text-blue-800">歴史的背景を踏まえた記事分析</h4>
+                      <p className="text-gray-700 leading-relaxed whitespace-pre-line">
+                        {news.historicalSummary}
+                      </p>
                     </Card>
-                  ))}
+                  )}
+
+                  {/* 関連する歴史的イベント */}
+                  {news.relatedHistory.length > 0 && (
+                    <>
+                      <h4 className="font-medium text-gray-700 mt-4">関連する歴史的イベント</h4>
+                      {news.relatedHistory.map((event, index) => (
+                        <Card key={index} className="p-4 bg-blue-50 border-blue-200">
+                          <div className="flex items-start gap-3">
+                            <div className="bg-blue-600 text-white px-3 py-1 rounded text-sm font-medium whitespace-nowrap">
+                              {event.year}
+                            </div>
+                            <div className="flex-1">
+                              <h4 className="font-medium mb-2">{event.title}</h4>
+                              <p className="text-sm text-gray-700 mb-2">
+                                {event.description}
+                              </p>
+                              <p className="text-sm text-blue-700 italic">
+                                現在への影響: {event.significance}
+                              </p>
+                            </div>
+                          </div>
+                        </Card>
+                      ))}
+                    </>
+                  )}
                 </div>
-              ) : (
+              ) : !loading && (
                 <p className="text-gray-500 text-sm">
                   歴史的背景情報はまだ生成されていません。
-                  {!loading && " Ollamaが起動していることを確認してください。"}
+                  Ollamaが起動していることを確認してください。
                 </p>
               )}
             </div>
