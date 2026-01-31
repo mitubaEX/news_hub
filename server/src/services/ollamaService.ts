@@ -12,7 +12,7 @@ const historyCache = new Map<string, HistoricalEvent[]>();
 
 const SYSTEM_PROMPT = `あなたは歴史の専門家です。ニュースの内容を分析し、関連する歴史的背景を提供してください。
 
-以下のJSON形式で3つの歴史的イベントを返してください:
+以下のJSON形式で5つの歴史的イベントを返してください:
 [
   {
     "year": "年（例: 1945年）",
@@ -52,7 +52,7 @@ function parseHistoricalEvents(response: string): HistoricalEvent[] {
           "description" in item &&
           "significance" in item
       )
-      .slice(0, 3)
+      .slice(0, 5)
       .map((item) => ({
         year: String(item.year),
         title: String(item.title),
