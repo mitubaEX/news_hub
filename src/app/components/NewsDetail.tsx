@@ -3,16 +3,33 @@ import { Badge } from "@/app/components/ui/badge";
 import { Card } from "@/app/components/ui/card";
 import { Separator } from "@/app/components/ui/separator";
 import { ScrollArea } from "@/app/components/ui/scroll-area";
-import { Clock, MapPin, History } from "lucide-react";
+import { Skeleton } from "@/app/components/ui/skeleton";
+import { Clock, MapPin, History, ExternalLink, Loader2 } from "lucide-react";
 import { NewsItem } from "@/app/types/news";
 
 interface NewsDetailProps {
   news: NewsItem | null;
   open: boolean;
   onClose: () => void;
+  loading?: boolean;
 }
 
-export function NewsDetail({ news, open, onClose }: NewsDetailProps) {
+function HistorySkeleton() {
+  return (
+    <Card className="p-4 bg-blue-50 border-blue-200">
+      <div className="flex items-start gap-3">
+        <Skeleton className="h-8 w-16" />
+        <div className="flex-1">
+          <Skeleton className="h-5 w-48 mb-2" />
+          <Skeleton className="h-4 w-full mb-2" />
+          <Skeleton className="h-4 w-3/4" />
+        </div>
+      </div>
+    </Card>
+  );
+}
+
+export function NewsDetail({ news, open, onClose, loading = false }: NewsDetailProps) {
   if (!news) return null;
 
   return (
@@ -39,6 +56,9 @@ export function NewsDetail({ news, open, onClose }: NewsDetailProps) {
                 <Clock className="w-3 h-3" />
                 {news.time}
               </span>
+              {news.source && (
+                <Badge variant="outline">{news.source}</Badge>
+              )}
             </div>
 
             {/* タグ */}
@@ -58,17 +78,38 @@ export function NewsDetail({ news, open, onClose }: NewsDetailProps) {
               <p className="text-gray-700 leading-relaxed whitespace-pre-line">
                 {news.content}
               </p>
+              {news.link && (
+                <a
+                  href={news.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 mt-4 text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  元記事を読む
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+              )}
             </div>
 
             <Separator />
 
             {/* 関連する歴史的情報 */}
-            {news.relatedHistory.length > 0 && (
-              <div>
-                <div className="flex items-center gap-2 mb-4">
-                  <History className="w-5 h-5 text-blue-600" />
-                  <h3 className="text-lg">関連する歴史的背景</h3>
+            <div>
+              <div className="flex items-center gap-2 mb-4">
+                <History className="w-5 h-5 text-blue-600" />
+                <h3 className="text-lg">関連する歴史的背景</h3>
+                {loading && (
+                  <Loader2 className="w-4 h-4 text-blue-600 animate-spin" />
+                )}
+              </div>
+
+              {loading && news.relatedHistory.length === 0 ? (
+                <div className="space-y-4">
+                  <HistorySkeleton />
+                  <HistorySkeleton />
+                  <HistorySkeleton />
                 </div>
+              ) : news.relatedHistory.length > 0 ? (
                 <div className="space-y-4">
                   {news.relatedHistory.map((event, index) => (
                     <Card key={index} className="p-4 bg-blue-50 border-blue-200">
@@ -89,8 +130,13 @@ export function NewsDetail({ news, open, onClose }: NewsDetailProps) {
                     </Card>
                   ))}
                 </div>
-              </div>
-            )}
+              ) : (
+                <p className="text-gray-500 text-sm">
+                  歴史的背景情報はまだ生成されていません。
+                  {!loading && " Ollamaが起動していることを確認してください。"}
+                </p>
+              )}
+            </div>
           </div>
         </ScrollArea>
       </DialogContent>
