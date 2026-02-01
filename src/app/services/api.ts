@@ -1,75 +1,82 @@
 import { NewsItem } from "@/app/types/news";
 
-const API_BASE = "/api";
+interface StaticNewsData {
+  generatedAt: string;
+  ollamaEnabled: boolean;
+  totalNews: number;
+  news: NewsItem[];
+}
 
-interface ApiResponse<T> {
-  success: boolean;
-  data: T;
-  total?: number;
-  error?: string;
-  message?: string;
+let cachedData: StaticNewsData | null = null;
+
+async function loadNewsData(): Promise<StaticNewsData> {
+  if (cachedData) {
+    return cachedData;
+  }
+
+  const response = await fetch("/data/news.json");
+
+  if (!response.ok) {
+    throw new Error(`Failed to load news data: ${response.status}`);
+  }
+
+  cachedData = await response.json();
+  return cachedData!;
 }
 
 export async function fetchNews(
   region?: string,
   query?: string
 ): Promise<NewsItem[]> {
-  const params = new URLSearchParams();
+  const data = await loadNewsData();
+  let news = data.news;
+
+  // 地域フィルター
   if (region && region !== "すべて") {
-    params.append("region", region);
+    news = news.filter((item) => item.region === region);
   }
+
+  // 検索クエリフィルター
   if (query) {
-    params.append("query", query);
+    const lowerQuery = query.toLowerCase();
+    news = news.filter(
+      (item) =>
+        item.title.toLowerCase().includes(lowerQuery) ||
+        item.summary.toLowerCase().includes(lowerQuery) ||
+        item.tags.some((tag) => tag.toLowerCase().includes(lowerQuery))
+    );
   }
 
-  const url = `${API_BASE}/news${params.toString() ? `?${params}` : ""}`;
-  const response = await fetch(url);
-
-  if (!response.ok) {
-    throw new Error(`API error: ${response.status}`);
-  }
-
-  const result: ApiResponse<NewsItem[]> = await response.json();
-
-  if (!result.success) {
-    throw new Error(result.error || "Unknown error");
-  }
-
-  return result.data;
+  return news;
 }
 
 export async function fetchNewsDetail(
   id: string,
-  withHistory = true
+  _withHistory = true
 ): Promise<NewsItem> {
-  const url = `${API_BASE}/news/${id}?withHistory=${withHistory}`;
-  const response = await fetch(url);
+  const data = await loadNewsData();
+  const news = data.news.find((item) => item.id === id);
 
-  if (!response.ok) {
-    throw new Error(`API error: ${response.status}`);
+  if (!news) {
+    throw new Error(`News not found: ${id}`);
   }
 
-  const result: ApiResponse<NewsItem> = await response.json();
-
-  if (!result.success) {
-    throw new Error(result.error || "Unknown error");
-  }
-
-  return result.data;
+  return news;
 }
 
 export async function refreshNews(): Promise<NewsItem[]> {
-  const response = await fetch(`${API_BASE}/news/refresh`);
+  // 静的サイトではキャッシュをクリアして再読み込み
+  cachedData = null;
+  const data = await loadNewsData();
+  return data.news;
+}
 
-  if (!response.ok) {
-    throw new Error(`API error: ${response.status}`);
-  }
+export async function getGeneratedAt(): Promise<string> {
+  const data = await loadNewsData();
+  return data.generatedAt;
+}
 
-  const result: ApiResponse<NewsItem[]> = await response.json();
-
-  if (!result.success) {
-    throw new Error(result.error || "Unknown error");
-  }
-
-  return result.data;
+export async function isOllamaEnabled(): Promise<boolean> {
+  const data = await loadNewsData();
+  return data.ollamaEnabled;
 }
