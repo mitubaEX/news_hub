@@ -30,7 +30,7 @@ const SYSTEM_PROMPT = `あなたは歴史の専門家です。ニュースの全
 - historicalEventsには関連する5つの歴史的イベントを含めてください
 - 説明文は日本語で記述してください
 - ニュースの地域や内容に関連する歴史的イベントを選んでください
-- 古代から現代まで、多様な時代から選んでください`;
+- 直近5年程度（2021年以降）の関連する出来事を選んでください`;
 
 function parseHistoricalAnalysis(response: string): HistoricalAnalysis | null {
   try {
