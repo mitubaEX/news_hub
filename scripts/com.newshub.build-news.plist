@@ -10,14 +10,9 @@
         <string>/Users/mituba/workdir/trash/20260131/scripts/cron-build-news.sh</string>
     </array>
 
-    <!-- 毎日 6:00 に実行 -->
-    <key>StartCalendarInterval</key>
-    <dict>
-        <key>Hour</key>
-        <integer>6</integer>
-        <key>Minute</key>
-        <integer>0</integer>
-    </dict>
+    <!-- 6時間ごとに実行（スリープ復帰後にも対応） -->
+    <key>StartInterval</key>
+    <integer>21600</integer>
 
     <!-- 標準出力/エラーのログ -->
     <key>StandardOutPath</key>

@@ -1,13 +1,17 @@
 #!/bin/bash
 
 # News Hub - 自動ニュースビルド＆デプロイスクリプト
-# cron で毎日実行し、最新ニュースを取得してデプロイする
+# 定期実行し、最新ニュースを取得してデプロイする
 
 set -e
 
 # プロジェクトルート
 PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 LOG_FILE="$PROJECT_DIR/logs/cron-build.log"
+LAST_RUN_FILE="$PROJECT_DIR/logs/.last-run"
+
+# 最小実行間隔（秒）: 6時間
+MIN_INTERVAL=21600
 
 # ログディレクトリ作成
 mkdir -p "$PROJECT_DIR/logs"
@@ -16,6 +20,19 @@ mkdir -p "$PROJECT_DIR/logs"
 log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
 }
+
+# 前回実行からの経過時間をチェック
+if [ -f "$LAST_RUN_FILE" ]; then
+    LAST_RUN=$(cat "$LAST_RUN_FILE")
+    NOW=$(date +%s)
+    ELAPSED=$((NOW - LAST_RUN))
+
+    if [ "$ELAPSED" -lt "$MIN_INTERVAL" ]; then
+        REMAINING=$(( (MIN_INTERVAL - ELAPSED) / 60 ))
+        log "前回実行から ${ELAPSED}秒 経過。次回実行まで約 ${REMAINING}分。スキップします。"
+        exit 0
+    fi
+fi
 
 log "=========================================="
 log "ニュースビルド開始"
@@ -58,6 +75,9 @@ EOF
 
     log "デプロイ完了"
 fi
+
+# 最終実行時刻を記録
+date +%s > "$LAST_RUN_FILE"
 
 log "ニュースビルド終了"
 log "=========================================="
