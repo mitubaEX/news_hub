@@ -51,6 +51,14 @@ cat > "$PLIST_DEST" << EOF
     <dict>
         <key>PATH</key>
         <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+        <key>OLLAMA_API_BASE</key>
+        <string>http://localhost:11434</string>
+        <key>OLLAMA_HOST</key>
+        <string>http://localhost:11434</string>
+        <key>OLLAMA_MODEL</key>
+        <string>gemma3n:e4b</string>
+        <key>PORT</key>
+        <string>3001</string>
     </dict>
 
     <!-- 起動時に実行しない -->
