@@ -6,9 +6,10 @@ import { NewsItem } from "@/app/types/news";
 interface NewsCardProps {
   news: NewsItem;
   onClick: () => void;
+  isRead?: boolean;
 }
 
-export function NewsCard({ news, onClick }: NewsCardProps) {
+export function NewsCard({ news, onClick, isRead = false }: NewsCardProps) {
   const getRegionColor = (region: string) => {
     const colors: Record<string, string> = {
       "アジア": "bg-blue-500",
@@ -34,7 +35,7 @@ export function NewsCard({ news, onClick }: NewsCardProps) {
     <Card
       className={`p-6 cursor-pointer hover:shadow-lg transition-all duration-300 hover:-translate-y-1 ${getPriorityStyle(
         news.priority
-      )}`}
+      )} ${isRead ? "opacity-60 bg-gray-50" : ""}`}
       onClick={onClick}
     >
       <div className="flex items-start gap-4">

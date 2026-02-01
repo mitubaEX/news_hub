@@ -7,6 +7,7 @@ import { Badge } from "@/app/components/ui/badge";
 import { Button } from "@/app/components/ui/button";
 import { Skeleton } from "@/app/components/ui/skeleton";
 import { useNews, useNewsDetail } from "@/app/hooks/useNews";
+import { useReadStatus } from "@/app/hooks/useReadStatus";
 import { NewsItem } from "@/app/types/news";
 import { Search, TrendingUp, Clock, RefreshCw, AlertCircle, Loader2 } from "lucide-react";
 
@@ -48,10 +49,13 @@ export default function App() {
     selectedNewsId
   );
 
+  const { isRead, markAsRead, readCount } = useReadStatus();
+
   // ニュース選択時の処理
   const handleNewsClick = (newsItem: NewsItem) => {
     setSelectedNewsId(newsItem.id);
     setSelectedNewsItem(newsItem);
+    markAsRead(newsItem.id);
   };
 
   // 詳細ダイアログが開いたら歴史的背景を読み込む
@@ -134,7 +138,7 @@ export default function App() {
         )}
 
         {/* 統計情報 */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           <div className="bg-white p-4 rounded-lg shadow">
             <div className="text-sm text-gray-600 mb-1">総ニュース数</div>
             <div className="text-3xl">
@@ -156,6 +160,10 @@ export default function App() {
                 news.reduce((sum, n) => sum + n.relatedHistory.length, 0)
               )}
             </div>
+          </div>
+          <div className="bg-green-50 p-4 rounded-lg shadow border border-green-200">
+            <div className="text-sm text-green-600 mb-1">既読</div>
+            <div className="text-3xl text-green-600">{readCount}</div>
           </div>
         </div>
 
@@ -191,7 +199,7 @@ export default function App() {
             </div>
             <div className="grid grid-cols-1 gap-4">
               {urgentNews.map((newsItem) => (
-                <NewsCard key={newsItem.id} news={newsItem} onClick={() => handleNewsClick(newsItem)} />
+                <NewsCard key={newsItem.id} news={newsItem} onClick={() => handleNewsClick(newsItem)} isRead={isRead(newsItem.id)} />
               ))}
             </div>
           </div>
@@ -203,7 +211,7 @@ export default function App() {
             <h2 className="text-xl mb-4">最新ニュース</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
               {otherNews.map((newsItem) => (
-                <NewsCard key={newsItem.id} news={newsItem} onClick={() => handleNewsClick(newsItem)} />
+                <NewsCard key={newsItem.id} news={newsItem} onClick={() => handleNewsClick(newsItem)} isRead={isRead(newsItem.id)} />
               ))}
             </div>
           </div>
