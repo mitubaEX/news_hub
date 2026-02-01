@@ -37,23 +37,35 @@ async function buildNews(): Promise<void> {
   const news = await fetchAllNews(true);
   console.log(`   ${news.length} 件のニュースを取得しました\n`);
 
-  // Ollamaで歴史分析を生成
+  // Ollamaで歴史分析を生成（並列処理）
   if (ollamaConnected) {
-    console.log("🤖 歴史分析を生成中...");
+    console.log("🤖 歴史分析を生成中（並列処理）...");
+    const CONCURRENCY = 4; // 同時処理数
     let processed = 0;
 
-    for (const item of news) {
-      try {
-        const analysis = await generateHistoricalBackground(item);
-        item.relatedHistory = analysis.historicalEvents;
-        item.historicalSummary = analysis.summary;
-        processed++;
+    // バッチ処理で並列実行
+    for (let i = 0; i < news.length; i += CONCURRENCY) {
+      const batch = news.slice(i, i + CONCURRENCY);
+      const results = await Promise.allSettled(
+        batch.map(async (item) => {
+          const analysis = await generateHistoricalBackground(item);
+          item.relatedHistory = analysis.historicalEvents;
+          item.historicalSummary = analysis.summary;
+          return item;
+        })
+      );
 
-        // 進捗表示
-        process.stdout.write(`\r   処理中: ${processed}/${news.length}`);
-      } catch (error) {
-        console.error(`\n   エラー (${item.title}):`, error);
+      // 成功/失敗をカウント
+      for (const result of results) {
+        if (result.status === "fulfilled") {
+          processed++;
+        } else {
+          console.error(`\n   エラー:`, result.reason);
+        }
       }
+
+      // 進捗表示
+      process.stdout.write(`\r   処理中: ${processed}/${news.length}`);
     }
     console.log(`\n   ${processed} 件の分析を完了しました\n`);
   }
