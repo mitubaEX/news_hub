@@ -11,6 +11,9 @@ LAUNCH_AGENTS_DIR="$HOME/Library/LaunchAgents"
 PLIST_NAME="com.newshub.build-news.plist"
 PLIST_DEST="$LAUNCH_AGENTS_DIR/$PLIST_NAME"
 
+# 現在の環境から PATH を取得
+CURRENT_PATH="$PATH"
+
 echo "News Hub 自動ビルドのセットアップ"
 echo "=================================="
 echo "プロジェクト: $PROJECT_DIR"
@@ -36,9 +39,14 @@ cat > "$PLIST_DEST" << EOF
         <string>$PROJECT_DIR/scripts/cron-build-news.sh</string>
     </array>
 
-    <!-- 6時間ごとに実行（スリープ復帰後にも対応） -->
-    <key>StartInterval</key>
-    <integer>21600</integer>
+    <!-- 毎日朝6時に実行 -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>6</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
 
     <!-- 標準出力/エラーのログ -->
     <key>StandardOutPath</key>
@@ -50,7 +58,7 @@ cat > "$PLIST_DEST" << EOF
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
-        <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+        <string>$CURRENT_PATH</string>
         <key>OLLAMA_API_BASE</key>
         <string>http://localhost:11434</string>
         <key>OLLAMA_HOST</key>
@@ -60,6 +68,10 @@ cat > "$PLIST_DEST" << EOF
         <key>PORT</key>
         <string>3001</string>
     </dict>
+
+    <!-- タイムアウト: 2時間 -->
+    <key>TimeOut</key>
+    <integer>7200</integer>
 
     <!-- 起動時に実行しない -->
     <key>RunAtLoad</key>
@@ -78,7 +90,7 @@ echo ""
 echo "セットアップ完了!"
 echo ""
 echo "設定内容:"
-echo "  - 6時間ごとに自動実行"
+echo "  - 毎日朝6時に自動実行"
 echo "  - ログ: $PROJECT_DIR/logs/"
 echo ""
 echo "コマンド:"
