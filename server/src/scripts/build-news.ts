@@ -69,10 +69,17 @@ async function buildNews(): Promise<void> {
 
   for (const item of news) {
     const existing = existingNews.get(item.link);
-    if (existing && existing.relatedHistory && existing.historicalSummary) {
+    if (
+      existing &&
+      existing.relatedHistory &&
+      existing.historicalSummary &&
+      existing.threeLineSummary &&
+      existing.threeLineSummary.length > 0
+    ) {
       // 既存の歴史分析を再利用
       item.relatedHistory = existing.relatedHistory;
       item.historicalSummary = existing.historicalSummary;
+      item.threeLineSummary = existing.threeLineSummary;
       cachedNews.push(item);
     } else {
       newNews.push(item);
@@ -96,6 +103,7 @@ async function buildNews(): Promise<void> {
           const analysis = await generateHistoricalBackground(item);
           item.relatedHistory = analysis.historicalEvents;
           item.historicalSummary = analysis.summary;
+          item.threeLineSummary = analysis.threeLineSummary;
           return item;
         })
       );

@@ -70,6 +70,7 @@ router.get("/:id", async (req: Request, res: Response) => {
       const analysis = await generateHistoricalBackground(news);
       news.relatedHistory = analysis.historicalEvents;
       news.historicalSummary = analysis.summary;
+      news.threeLineSummary = analysis.threeLineSummary;
     }
 
     res.json({

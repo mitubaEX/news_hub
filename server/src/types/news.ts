@@ -6,6 +6,7 @@ export interface HistoricalEvent {
 }
 
 export interface HistoricalAnalysis {
+  threeLineSummary: string[];
   summary: string;
   historicalEvents: HistoricalEvent[];
 }
@@ -20,6 +21,7 @@ export interface NewsItem {
   time: string;
   relatedHistory: HistoricalEvent[];
   historicalSummary?: string;
+  threeLineSummary?: string[];
   tags: string[];
   link?: string;
   source?: string;

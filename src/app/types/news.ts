@@ -15,5 +15,6 @@ export interface NewsItem {
   time: string;
   relatedHistory: HistoricalEvent[];
   historicalSummary?: string;
+  threeLineSummary?: string[];
   tags: string[];
 }

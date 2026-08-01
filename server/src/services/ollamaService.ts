@@ -13,6 +13,11 @@ const historyCache = new Map<string, HistoricalAnalysis>();
 const SYSTEM_PROMPT = `あなたは歴史の専門家です。ニュースの全文を分析し、以下のJSON形式で歴史的背景に基づいた分析を返してください:
 
 {
+  "threeLineSummary": [
+    "1文目：記事の最も重要な事実・出来事（60文字程度）",
+    "2文目：背景・原因や関連する動き（60文字程度）",
+    "3文目：今後の見通し、または歴史的な含意（60文字程度）"
+  ],
   "summary": "記事の要約と歴史的な視点からの分析（200-400文字程度）。このニュースが持つ歴史的意味や、過去の類似事例との比較を含めてください。",
   "historicalEvents": [
     {
@@ -26,6 +31,7 @@ const SYSTEM_PROMPT = `あなたは歴史の専門家です。ニュースの全
 
 重要:
 - 必ず上記のJSON形式のみを返してください
+- threeLineSummaryは必ず配列で3要素、それぞれ独立した1文にしてください（箇条書き記号や番号は含めない）
 - summaryには記事の内容を歴史的な視点から分析した要約を記述してください
 - historicalEventsには関連する5つの歴史的イベントを含めてください
 - 説明文は日本語で記述してください
@@ -48,6 +54,15 @@ function parseHistoricalAnalysis(response: string): HistoricalAnalysis | null {
 
     const summary = typeof parsed.summary === "string" ? parsed.summary : "";
 
+    let threeLineSummary: string[] = [];
+    if (Array.isArray(parsed.threeLineSummary)) {
+      threeLineSummary = parsed.threeLineSummary
+        .filter((line: unknown) => typeof line === "string")
+        .map((line: string) => line.trim())
+        .filter((line: string) => line.length > 0)
+        .slice(0, 3);
+    }
+
     let historicalEvents: HistoricalEvent[] = [];
     if (Array.isArray(parsed.historicalEvents)) {
       historicalEvents = parsed.historicalEvents
@@ -69,7 +84,7 @@ function parseHistoricalAnalysis(response: string): HistoricalAnalysis | null {
         }));
     }
 
-    return { summary, historicalEvents };
+    return { threeLineSummary, summary, historicalEvents };
   } catch (error) {
     console.error("Failed to parse historical analysis:", error);
     return null;
@@ -113,15 +128,20 @@ ${news.content}`;
     const analysis = parseHistoricalAnalysis(response.message.content);
 
     // キャッシュに保存
-    if (analysis && (analysis.summary || analysis.historicalEvents.length > 0)) {
+    if (
+      analysis &&
+      (analysis.summary ||
+        analysis.historicalEvents.length > 0 ||
+        analysis.threeLineSummary.length > 0)
+    ) {
       historyCache.set(news.id, analysis);
       return analysis;
     }
 
-    return { summary: "", historicalEvents: [] };
+    return { threeLineSummary: [], summary: "", historicalEvents: [] };
   } catch (error) {
     console.error("Ollama API error:", error);
-    return { summary: "", historicalEvents: [] };
+    return { threeLineSummary: [], summary: "", historicalEvents: [] };
   }
 }
 

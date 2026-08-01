@@ -4,7 +4,7 @@ import { Card } from "@/app/components/ui/card";
 import { Separator } from "@/app/components/ui/separator";
 import { ScrollArea } from "@/app/components/ui/scroll-area";
 import { Skeleton } from "@/app/components/ui/skeleton";
-import { Clock, MapPin, History, ExternalLink, Loader2 } from "lucide-react";
+import { Clock, MapPin, History, ExternalLink, Loader2, ListChecks } from "lucide-react";
 import { NewsItem } from "@/app/types/news";
 
 interface NewsDetailProps {
@@ -109,8 +109,25 @@ export function NewsDetail({ news, open, onClose, loading = false }: NewsDetailP
                   <HistorySkeleton />
                   <HistorySkeleton />
                 </div>
-              ) : news.relatedHistory.length > 0 || news.historicalSummary ? (
+              ) : news.relatedHistory.length > 0 ||
+                news.historicalSummary ||
+                (news.threeLineSummary && news.threeLineSummary.length > 0) ? (
                 <div className="space-y-4">
+                  {/* 三行サマリ */}
+                  {news.threeLineSummary && news.threeLineSummary.length > 0 && (
+                    <Card className="p-4 bg-emerald-50 border-emerald-200">
+                      <div className="flex items-center gap-2 mb-2">
+                        <ListChecks className="w-4 h-4 text-emerald-700" />
+                        <h4 className="font-medium text-emerald-800">三行サマリ</h4>
+                      </div>
+                      <ol className="list-decimal list-inside space-y-1 text-gray-700 leading-relaxed marker:text-emerald-700">
+                        {news.threeLineSummary.map((line, index) => (
+                          <li key={index}>{line}</li>
+                        ))}
+                      </ol>
+                    </Card>
+                  )}
+
                   {/* 歴史的視点からの要約 */}
                   {news.historicalSummary && (
                     <Card className="p-4 bg-gradient-to-r from-blue-50 to-purple-50 border-blue-200">
