@@ -92,7 +92,8 @@ async function buildNews(): Promise<void> {
   // Ollamaで歴史分析を生成（新規ニュースのみ、並列処理）
   if (ollamaConnected && newNews.length > 0) {
     console.log("🤖 歴史分析を生成中（並列処理）...");
-    const CONCURRENCY = 4; // 同時処理数
+    // Ollama サーバの並列スロット (通常 -np 1) に合わせないと undici が headers timeout する
+    const CONCURRENCY = Number(process.env.BUILD_NEWS_CONCURRENCY ?? 1);
     let processed = 0;
 
     // バッチ処理で並列実行

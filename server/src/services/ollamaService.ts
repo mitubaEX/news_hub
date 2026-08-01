@@ -40,8 +40,9 @@ const SYSTEM_PROMPT = `あなたは歴史の専門家です。ニュースの全
 
 function parseHistoricalAnalysis(response: string): HistoricalAnalysis | null {
   try {
-    // JSONオブジェクトを抽出
-    const jsonMatch = response.match(/\{[\s\S]*\}/);
+    // gemma3n などが SentencePiece の空白トークン (U+2581) を素通しで返すため空白に置換
+    const normalized = response.replace(/▁/g, " ");
+    const jsonMatch = normalized.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
       console.error("No JSON object found in response");
       return null;
