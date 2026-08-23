@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T06:22:11.668Z",
+  "generatedAt": "2026-08-23T00:45:26.416Z",
   "ollamaEnabled": true,
   "totalNews": 58,
   "news": [
@@ -10,7 +10,7 @@
       "content": "8日は北日本から西日本にかけての広い範囲で大気の状態が非常に不安定になり、「記録的短時間大雨」の気象防災速報があわせて7回発表されるなど局地的な大雨となりました。9日も大気の状態が非常に不安定になる見込みで、低い土地の浸水や急な川の増水などに十分注意が必要です。",
       "region": "アジア",
       "priority": "緊急",
-      "time": "13日前",
+      "time": "14日前",
       "relatedHistory": [
         {
           "year": "2011年",
@@ -54,13 +54,117 @@
       ]
     },
     {
+      "id": "cx3drk",
+      "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+      "summary": "Canada's prime minister said he was \"reluctantly\" announcing retaliatory tariffs as he accused the US of starting a trade war.",
+      "content": "Canada's prime minister said he was \"reluctantly\" announcing retaliatory tariffs as he accused the US of starting a trade war.",
+      "region": "ヨーロッパ",
+      "priority": "緊急",
+      "time": "56分前",
+      "relatedHistory": [
+        {
+          "year": "1930年代",
+          "title": "世界恐慌",
+          "description": "各国が自国産業保護のため関税を大幅に引き上げ、世界貿易が縮小した。",
+          "significance": "保護主義政策の危険性を示す。現在の状況との類似点。"
+        },
+        {
+          "year": "1947年",
+          "title": "世界貿易機関（WTO）設立",
+          "description": "国際貿易紛争の解決と自由貿易促進を目的にWTOが設立された。",
+          "significance": "多国間貿易体制の重要性を示す。現在の状況との対比。"
+        },
+        {
+          "year": "2018年",
+          "title": "米中貿易戦争開始",
+          "description": "米国が中国製品に高額な関税を課し、両国間の貿易摩擦が激化。",
+          "significance": "保護主義的政策の具体的な事例。サプライチェーンへの影響。"
+        },
+        {
+          "year": "2021年",
+          "title": "新型コロナウイルス感染症パンデミック",
+          "description": "世界的なサプライチェーンの混乱を招き、各国の経済政策に大きな影響を与えた。",
+          "significance": "グローバル経済の脆弱性を示す。関税措置がもたらすリスク。"
+        },
+        {
+          "year": "2022年",
+          "title": "ロシアによるウクライナ侵攻",
+          "description": "エネルギー価格の高騰や食糧供給の混乱を引き起こし、世界経済に不確実性をもたらした。",
+          "significance": "地政学的リスクと経済の関係を示す。関税措置の背後にある政治的要因。"
+        }
+      ],
+      "tags": [
+        "経済"
+      ],
+      "link": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News World",
+      "historicalSummary": "カナダのカーニー副首相は、トランプ政権が開始した貿易戦争の一環として課した新たな関税を「誤算」と批判しました。これは、米国が自国の経済的利益のために保護主義的な政策を採用する動きの一例であり、過去の歴史において頻繁に繰り返されてきたパターンです。特に、2018年から2020年にかけての米中貿易摩擦は、世界経済に大きな影響を与え、サプライチェーンの混乱や貿易量の減少を引き起こしました。今回のカナダとの対立も、同様の副作用をもたらす可能性があります。また、この状況は、多国間貿易体制であるWTO（世界貿易機関）の機能不全を浮き彫りにしています。WTOのルールを無視した一方的な関税措置は、国際貿易秩序を揺るがし、グローバル経済の不安定化を招く恐れがあります。過去には、1930年代の世界恐慌時に各国が自国産業保護のために関税を引き上げたことがありますが、それは世界経済のさらなる悪化を招きました。今回のカナダとの対立は、歴史的な教訓を無視した政策であり、国際社会全体にとって負の遺産となる可能性があります。",
+      "threeLineSummary": [
+        "カーニー氏は、トランプ氏の新たな関税を「誤算」と批判。貿易交渉決裂後発言。",
+        "米国が貿易戦争を招く形で、カナダが報復関税を検討。米中関係悪化の影響も視野。",
+        "この対立は、グローバル経済の不安定化を示唆し、過去の保護主義政策との類似性を持つ。"
+      ]
+    },
+    {
+      "id": "iuvzj1",
+      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+      "summary": "Four people are still missing after Friday's attack which killed 16 and left 130 injured, including a number of children.",
+      "content": "Four people are still missing after Friday's attack which killed 16 and left 130 injured, including a number of children.",
+      "region": "ヨーロッパ",
+      "priority": "緊急",
+      "time": "7時間前",
+      "relatedHistory": [
+        {
+          "year": "2014年",
+          "title": "クリミア危機",
+          "description": "ロシアによるクリミア半島の併合。国際的な制裁とウクライナとの関係悪化を招く。",
+          "significance": "ロシアのウクライナ侵攻の直接的なきっかけの一つ。安全保障環境の悪化。"
+        },
+        {
+          "year": "2022年2月",
+          "title": "ロシアによるウクライナ侵攻開始",
+          "description": "ロシア軍によるウクライナ全土への大規模侵攻。欧米諸国からの制裁が強化された。",
+          "significance": "紛争の直接的な原因。国際秩序への挑戦。"
+        },
+        {
+          "year": "2022年3月",
+          "title": "ブチャ虐殺事件",
+          "description": "ロシア軍によるブチャでの民間人虐殺疑惑が報道され、国際社会から非難を受けた。",
+          "significance": "戦争犯罪の可能性を示す事例。国際的な法的措置の検討。"
+        },
+        {
+          "year": "2022年5月",
+          "title": "キーウ動物園での虐殺事件",
+          "description": "ロシア軍がキーウ動物園を占拠し、動物を虐殺した事件が発生。",
+          "significance": "戦争における非人道的な行為の具体例。ロシア軍の行動原理を示す。"
+        },
+        {
+          "year": "2023年2月",
+          "title": "ハルキウへのロシアの攻撃",
+          "description": "ロシア軍がハルキウへの大規模な攻撃を行い、多数の民間人が死亡。",
+          "significance": "民間施設への攻撃の継続。人道危機を深刻化。"
+        }
+      ],
+      "tags": [
+        "テクノロジー"
+      ],
+      "link": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News World",
+      "historicalSummary": "ウクライナのショッピングモールへのロシアによるドローン攻撃は、2022年から続くロシアのウクライナ侵攻における悲劇的な一例である。この攻撃は多数の死傷者を引き起こし、ウクライナ国内の人道状況をさらに悪化させている。過去の同様の攻撃と同様に、民間施設への攻撃は国際法に違反する可能性があり、国際社会からの非難を招いている。2022年2月24日の侵攻開始以降、ロシア軍はウクライナ各地のインフラや都市を標的とし続けており、この攻撃はその一環として捉えられる。同様の事例は、イラクやシリアなど、過去の紛争においても確認されており、民間人への攻撃は戦争犯罪とみなされる場合がある。今回の攻撃は、紛争が長期化する中で、より多くの人道支援が必要となることを改めて示している。",
+      "threeLineSummary": [
+        "ロシアのドローン攻撃により、ウクライナのショッピングモールで15人が死亡。",
+        "ウクライナ国内での紛争激化と、ロシア軍による攻撃が背景にある。",
+        "人道危機を深刻化させ、国際社会における安全保障への懸念を高める可能性。"
+      ]
+    },
+    {
       "id": "xmzt9w",
       "title": "One killed in sword attack at Swedish school",
       "summary": "Officials say another three people were injured, and an 18-year-old male suspect shot and arrested.",
       "content": "Officials say another three people were injured, and an 18-year-old male suspect shot and arrested. ",
       "region": "ヨーロッパ",
       "priority": "緊急",
-      "time": "0分前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "2015年",
@@ -104,116 +208,13 @@
       ]
     },
     {
-      "id": "29oq1w",
-      "title": "Two injured in stabbing attack at Canada Sikh temple",
-      "summary": "One suspect is in custody, but police have not disclosed a possible motive.",
-      "content": "One suspect is in custody, but police have not disclosed a possible motive.",
-      "region": "ヨーロッパ",
-      "priority": "緊急",
-      "time": "2時間前",
-      "relatedHistory": [
-        {
-          "year": "2015年",
-          "title": "パリ同時多発テロ事件",
-          "description": "フランスの複数の場所で同時多発テロが発生。イスラム過激派組織による犯行で、ヨーロッパ社会に大きな衝撃を与えた。",
-          "significance": "宗教的少数者への攻撃を正当化するイデオロギーの背景を示す。"
-        },
-        {
-          "year": "2016年",
-          "title": "イギリスのテロ事件（リバプール）",
-          "description": "リバプールのパブで爆弾テロが発生。イスラム過激派組織による犯行で、社会に不安と恐怖をもたらした。",
-          "significance": "欧州におけるテロリズムの脅威と宗教的少数者への攻撃の危険性を示す。"
-        },
-        {
-          "year": "2017年",
-          "title": "ドイツのテロ事件（レーゲンスブルク）",
-          "description": "レーゲンスブルクの教会で銃乱射事件が発生。白人至上主義者の犯行と判明し、宗教施設への攻撃の多様性を示す。",
-          "significance": "宗教的施設が、様々な政治的イデオロギーの標的となりうることを示す。"
-        },
-        {
-          "year": "2020年",
-          "title": "アメリカにおける人種差別抗議デモ",
-          "description": "ジョージ・フロイド氏の死亡をきっかけに、アメリカ全土で人種差別に対する抗議デモが発生。社会の分断と偏見が表面化した。",
-          "significance": "社会不安や分断が、特定の集団に対する攻撃につながる可能性を示す。"
-        },
-        {
-          "year": "2021年",
-          "title": "インドにおけるシーク教徒に対する暴動",
-          "description": "インドでシーク教徒に対する大規模な暴動が発生。宗教的少数者への差別と暴力が深刻化していることを示している。",
-          "significance": "シーク教徒コミュニティが、社会的な偏見や暴力の対象となりうる歴史的背景を示す。"
-        }
-      ],
-      "tags": [],
-      "link": "https://www.bbc.co.uk/news/articles/ce8l7w0n0jeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News World",
-      "historicalSummary": "カナダのシーク教寺院への襲撃事件は、宗教的少数者に対するヘイトクライムの深刻さを改めて浮き彫りにしている。過去には、イスラム過激派による同様の攻撃がヨーロッパ各地で発生しており、宗教的寛容性の欠如や社会の分断といった構造的な問題が背景にあると考えられる。特に近年では、右派の台頭や移民排斥の動きが社会不安を助長し、少数民族に対する攻撃を誘発する可能性も指摘されている。この事件は、多様性を尊重し共生社会を築くための努力の必要性を訴えるとともに、歴史的な差別や偏見との闘いを改めて認識させるものである。",
-      "threeLineSummary": [
-        "カナダのシーク教寺院で刃物による襲撃があり、2人が負傷した。",
-        "イスラム過激派による宗教的少数者への攻撃は過去にも発生しており、社会不安が背景にある可能性がある。",
-        "宗教施設への攻撃は、寛容性と共生に向けた取り組みを脅かす歴史的な課題を再浮上させる。"
-      ]
-    },
-    {
-      "id": "fehmva",
-      "title": "Ebola vaccine trial to start in DR Congo as warning issued over speed of infections",
-      "summary": "About half of the 2,500 recorded deaths from Ebola happened in the last 20 days, the WHO says.",
-      "content": "About half of the 2,500 recorded deaths from Ebola happened in the last 20 days, the WHO says.",
-      "region": "ヨーロッパ",
-      "priority": "緊急",
-      "time": "7時間前",
-      "relatedHistory": [
-        {
-          "year": "1976年",
-          "title": "最初のエボラ出血熱の大流行",
-          "description": "ギニアで初めてエボラ出血熱の大流行が発生。感染の危険性と治療法の不在が世界に衝撃を与えた。",
-          "significance": "エボラに関する初期の認識と研究の出発点となった。"
-        },
-        {
-          "year": "2003年",
-          "title": "西アフリカのエボラ出血熱の大流行",
-          "description": "リベリアとギニアで大規模なエボラ出血熱の大流行が発生。WHOが対応に 나서、国際的な連携の必要性が認識された。",
-          "significance": "国際保健システムの脆弱性を露呈させ、対策強化の契機となった。"
-        },
-        {
-          "year": "2014年",
-          "title": "西アフリカのエボラ出血熱の大流行（2014-2016）",
-          "description": "西アフリカで最も大規模なエボラ出血熱の大流行が発生。多くの死者を出とし、世界的な懸念を引き起こした。",
-          "significance": "パンデミック対策の重要性を再認識させ、ワクチン開発を加速させる要因となった。"
-        },
-        {
-          "year": "2021年",
-          "title": "コンゴ民主共和国でのエボラ出血熱の再燃（2021年）",
-          "description": "コンゴ民主共和国でエボラ出血熱が再燃し、多くの死者を出した。感染拡大の原因は不明だが、地域社会の脆弱性が露呈した。",
-          "significance": "地域の医療体制強化と感染対策の必要性を強調する事例となった。"
-        },
-        {
-          "year": "2022年",
-          "title": "コンゴ民主共和国エボラ出血熱流行（2022年）",
-          "description": "2022年にもコンゴ民主共和国でエボラ出血熱が再燃。ワクチン接種の遅れや地域社会の協力不足が感染拡大の一因と指摘された。",
-          "significance": "ワクチン接種の重要性と、地域社会との連携による対策の必要性を改めて強調した。"
-        }
-      ],
-      "tags": [
-        "文化",
-        "健康"
-      ],
-      "link": "https://www.bbc.co.uk/news/articles/czxe9n0vxzdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News World",
-      "historicalSummary": "コンゴ民主共和国でエボラ出血熱の感染が再燃し、WHOはワクチン臨床試験の開始を推奨しています。過去20日間の死亡者数が半数近くに達するなど、感染拡大のスピードが深刻な状況です。この地域では過去にもエボラの大流行が発生しており、医療インフラの脆弱性や感染対策の遅れが問題となっています。今回の事態は、国際的な連携による感染症対策の重要性を改めて浮き彫りにしています。また、ワクチン開発の加速化と、ワクチンの公平な分配が喫緊の課題です。過去の類似事例と比較すると、地域社会への啓発活動やコミュニティの協力を得ることも成功の鍵となります。",
-      "threeLineSummary": [
-        "コンゴ民主共和国でエボラワクチンの臨床試験が開始。感染拡大のスピードが懸念されている。",
-        "過去20日間のエボラ死亡者数が記録的な増加を示しており、医療体制への負荷が増大している。",
-        "ワクチン開発は今後の感染症対策において重要であり、地域医療の強化が必要となる。"
-      ]
-    },
-    {
       "id": "bb3p6j",
       "title": "Assad officer extradited to Syria on war crimes charges for first time",
       "summary": "Lebanon handed over former General Adel Issa, as Syria steps up its pursuit of wanted members of the former regime.",
       "content": "Lebanon handed over former General Adel Issa, as Syria steps up its pursuit of wanted members of the former regime.",
       "region": "中東",
       "priority": "緊急",
-      "time": "1日前",
+      "time": "2日前",
       "relatedHistory": [
         {
           "year": "1945年",
@@ -263,7 +264,7 @@
       "content": "The five-year-old Palestinian girl initially survived the attack and pleaded for help but her body was recovered later with those of six of her relatives.",
       "region": "中東",
       "priority": "緊急",
-      "time": "1日前",
+      "time": "2日前",
       "relatedHistory": [
         {
           "year": "2005年",
@@ -313,7 +314,7 @@
       "content": "Damascus called the attacks \"an unjustified act of aggression\" that imperilled regional security.",
       "region": "中東",
       "priority": "緊急",
-      "time": "2日前",
+      "time": "3日前",
       "relatedHistory": [
         {
           "year": "1967年",
@@ -359,13 +360,66 @@
       ]
     },
     {
+      "id": "uajl2y",
+      "title": "Ebola vaccine trial to start in DR Congo as warning issued over speed of infections",
+      "summary": "About half of the 2,500 recorded deaths from Ebola happened in the last 20 days, the WHO says.",
+      "content": "About half of the 2,500 recorded deaths from Ebola happened in the last 20 days, the WHO says.",
+      "region": "アフリカ",
+      "priority": "緊急",
+      "time": "1日前",
+      "relatedHistory": [
+        {
+          "year": "1976年",
+          "title": "最初のエボラ出血熱の大流行",
+          "description": "ギニアで初めてエボラ出血熱の大流行が発生。感染の危険性と治療法の不在が世界に衝撃を与えた。",
+          "significance": "エボラに関する初期の認識と研究の出発点となった。"
+        },
+        {
+          "year": "2003年",
+          "title": "西アフリカのエボラ出血熱の大流行",
+          "description": "リベリアとギニアで大規模なエボラ出血熱の大流行が発生。WHOが対応に 나서、国際的な連携の必要性が認識された。",
+          "significance": "国際保健システムの脆弱性を露呈させ、対策強化の契機となった。"
+        },
+        {
+          "year": "2014年",
+          "title": "西アフリカのエボラ出血熱の大流行（2014-2016）",
+          "description": "西アフリカで最も大規模なエボラ出血熱の大流行が発生。多くの死者を出とし、世界的な懸念を引き起こした。",
+          "significance": "パンデミック対策の重要性を再認識させ、ワクチン開発を加速させる要因となった。"
+        },
+        {
+          "year": "2021年",
+          "title": "コンゴ民主共和国でのエボラ出血熱の再燃（2021年）",
+          "description": "コンゴ民主共和国でエボラ出血熱が再燃し、多くの死者を出した。感染拡大の原因は不明だが、地域社会の脆弱性が露呈した。",
+          "significance": "地域の医療体制強化と感染対策の必要性を強調する事例となった。"
+        },
+        {
+          "year": "2022年",
+          "title": "コンゴ民主共和国エボラ出血熱流行（2022年）",
+          "description": "2022年にもコンゴ民主共和国でエボラ出血熱が再燃。ワクチン接種の遅れや地域社会の協力不足が感染拡大の一因と指摘された。",
+          "significance": "ワクチン接種の重要性と、地域社会との連携による対策の必要性を改めて強調した。"
+        }
+      ],
+      "tags": [
+        "文化",
+        "健康"
+      ],
+      "link": "https://www.bbc.co.uk/news/articles/czxe9n0vxzdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News Africa",
+      "historicalSummary": "コンゴ民主共和国でエボラ出血熱の感染が再燃し、WHOはワクチン臨床試験の開始を推奨しています。過去20日間の死亡者数が半数近くに達するなど、感染拡大のスピードが深刻な状況です。この地域では過去にもエボラの大流行が発生しており、医療インフラの脆弱性や感染対策の遅れが問題となっています。今回の事態は、国際的な連携による感染症対策の重要性を改めて浮き彫りにしています。また、ワクチン開発の加速化と、ワクチンの公平な分配が喫緊の課題です。過去の類似事例と比較すると、地域社会への啓発活動やコミュニティの協力を得ることも成功の鍵となります。",
+      "threeLineSummary": [
+        "コンゴ民主共和国でエボラワクチンの臨床試験が開始。感染拡大のスピードが懸念されている。",
+        "過去20日間のエボラ死亡者数が記録的な増加を示しており、医療体制への負荷が増大している。",
+        "ワクチン開発は今後の感染症対策において重要であり、地域医療の強化が必要となる。"
+      ]
+    },
+    {
       "id": "3aalgs",
       "title": "Former Liberian vice-president charged in drug-trafficking probe",
       "summary": "Jewel Howard-Taylor was arrested at Liberia's international airport and has not commented on the allegations.",
       "content": "Jewel Howard-Taylor was arrested at Liberia's international airport and has not commented on the allegations.",
       "region": "アフリカ",
       "priority": "緊急",
-      "time": "1日前",
+      "time": "2日前",
       "relatedHistory": [
         {
           "year": "1980年",
@@ -411,55 +465,53 @@
       ]
     },
     {
-      "id": "bso6bp",
-      "title": "Warning signs flash on US economy as debt spirals",
-      "summary": "The US hit a debt milestone this week, but just how worried should we be about the world's largest economy?",
-      "content": "The US hit a debt milestone this week, but just how worried should we be about the world's largest economy?",
+      "id": "2812ek",
+      "title": "Two injured in stabbing attack at Canada Sikh temple",
+      "summary": "One suspect is in custody, and police have said they are still investigating if the attack was motivated by hate.",
+      "content": "One suspect is in custody, and police have said they are still investigating if the attack was motivated by hate.",
       "region": "アメリカ",
       "priority": "緊急",
-      "time": "12時間前",
+      "time": "22時間前",
       "relatedHistory": [
         {
-          "year": "1929年",
-          "title": "世界恐慌",
-          "description": "株価の大暴落をきっかけに世界的な経済危機が発生。過剰な投機と金融緩和が原因。",
-          "significance": "債務の過剰と金融市場の不安定化の危険性を浮き彫りにした。"
+          "year": "2015年",
+          "title": "パリ同時多発テロ事件",
+          "description": "フランスの複数の場所で同時多発テロが発生。イスラム過激派組織による犯行で、ヨーロッパ社会に大きな衝撃を与えた。",
+          "significance": "宗教的少数者への攻撃を正当化するイデオロギーの背景を示す。"
         },
         {
-          "year": "1973年",
-          "title": "第一次石油危機",
-          "description": "石油価格の高騰が世界経済に深刻な影響を与え、インフレと景気後退を引き起こした。",
-          "significance": "エネルギー価格の変動が経済に与える影響を例示し、財政政策の重要性を示唆。"
+          "year": "2016年",
+          "title": "イギリスのテロ事件（リバプール）",
+          "description": "リバプールのパブで爆弾テロが発生。イスラム過激派組織による犯行で、社会に不安と恐怖をもたらした。",
+          "significance": "欧州におけるテロリズムの脅威と宗教的少数者への攻撃の危険性を示す。"
         },
         {
-          "year": "1987年",
-          "title": "ブラックマンデー",
-          "description": "ニューヨーク株式市場で大規模な株価暴落が発生。プログラム売買が原因とされた。",
-          "significance": "金融市場の脆弱性と、市場規制の必要性を認識させる出来事。"
-        },
-        {
-          "year": "2008年",
-          "title": "リーマン・ショック",
-          "description": "大手投資銀行リーマン・ブラザーズの破綻をきっかけに世界的な金融危機が発生。",
-          "significance": "リスク管理の不備と、過剰な債務がもたらす危険性を明確にした。"
+          "year": "2017年",
+          "title": "ドイツのテロ事件（レーゲンスブルク）",
+          "description": "レーゲンスブルクの教会で銃乱射事件が発生。白人至上主義者の犯行と判明し、宗教施設への攻撃の多様性を示す。",
+          "significance": "宗教的施設が、様々な政治的イデオロギーの標的となりうることを示す。"
         },
         {
           "year": "2020年",
-          "title": "新型コロナウイルス感染症による経済危機",
-          "description": "パンデミックによる世界経済の停滞。各国政府は大規模な財政出動を行った。",
-          "significance": "危機時の財政政策の重要性を再確認し、債務増加の加速を招いた。"
+          "title": "アメリカにおける人種差別抗議デモ",
+          "description": "ジョージ・フロイド氏の死亡をきっかけに、アメリカ全土で人種差別に対する抗議デモが発生。社会の分断と偏見が表面化した。",
+          "significance": "社会不安や分断が、特定の集団に対する攻撃につながる可能性を示す。"
+        },
+        {
+          "year": "2021年",
+          "title": "インドにおけるシーク教徒に対する暴動",
+          "description": "インドでシーク教徒に対する大規模な暴動が発生。宗教的少数者への差別と暴力が深刻化していることを示している。",
+          "significance": "シーク教徒コミュニティが、社会的な偏見や暴力の対象となりうる歴史的背景を示す。"
         }
       ],
-      "tags": [
-        "経済"
-      ],
-      "link": "https://www.bbc.co.uk/news/articles/c9d8z72nn02o?at_medium=RSS&at_campaign=rss",
+      "tags": [],
+      "link": "https://www.bbc.co.uk/news/articles/ce8l7w0n0jeo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News US & Canada",
-      "historicalSummary": "米国の債務問題は、単なる財政上の課題ではなく、歴史的に繰り返されてきた経済危機と深く結びついている。過去の事例では、過剰な債務が景気後退や金融不安を招き、世界経済に波及することが多かった。特に2008年の金融危機や、過去の財政赤字拡大の経験は、現在の状況を理解する上で重要な教訓を与えてくれる。今回の債務問題は、米国経済の安定性だけでなく、グローバルな金融システム全体への影響も懸念される。政府による適切な財政政策と、国際社会との連携が不可欠である。",
+      "historicalSummary": "カナダのシーク教寺院への襲撃事件は、宗教的少数者に対するヘイトクライムの深刻さを改めて浮き彫りにしている。過去には、イスラム過激派による同様の攻撃がヨーロッパ各地で発生しており、宗教的寛容性の欠如や社会の分断といった構造的な問題が背景にあると考えられる。特に近年では、右派の台頭や移民排斥の動きが社会不安を助長し、少数民族に対する攻撃を誘発する可能性も指摘されている。この事件は、多様性を尊重し共生社会を築くための努力の必要性を訴えるとともに、歴史的な差別や偏見との闘いを改めて認識させるものである。",
       "threeLineSummary": [
-        "米国が債務里程標に到達し、経済への懸念が高まっている。",
-        "財政赤字の拡大は、過去の金融危機や景気後退と関連し、世界経済に影響を与える可能性を秘める。",
-        "債務問題の解決は、今後の経済成長と国際的な金融安定にとって重要な課題となる。"
+        "カナダのシーク教寺院で刃物による襲撃があり、2人が負傷した。",
+        "イスラム過激派による宗教的少数者への攻撃は過去にも発生しており、社会不安が背景にある可能性がある。",
+        "宗教施設への攻撃は、寛容性と共生に向けた取り組みを脅かす歴史的な課題を再浮上させる。"
       ]
     },
     {
@@ -469,7 +521,7 @@
       "content": "Drivers are waiting hours in fuel queues, as Moscow prepares to celebrate Russian Flag Day.",
       "region": "ヨーロッパ",
       "priority": "緊急",
-      "time": "7時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "1991年",
@@ -519,7 +571,7 @@
       "content": "At least 17 people were killed in the \"massive attack\" overnight on Ukraine's capital, as mayor Vitali Klitschko warns hot water supply has been disrupted.",
       "region": "ヨーロッパ",
       "priority": "緊急",
-      "time": "1日前",
+      "time": "2日前",
       "relatedHistory": [
         {
           "year": "1986年",
@@ -569,7 +621,7 @@
       "content": "Men born in Ukraine who fought for Russia are tried for treason, but at a prisoner of war camp in western Ukraine, many believe they were defending their homeland.",
       "region": "ヨーロッパ",
       "priority": "緊急",
-      "time": "1日前",
+      "time": "2日前",
       "relatedHistory": [
         {
           "year": "1991年",
@@ -621,7 +673,7 @@
       "content": "Investigators believe they have identified an arsonist who attacked a Jewish community centre in Munich in 1970, killing seven people.",
       "region": "ヨーロッパ",
       "priority": "緊急",
-      "time": "1日前",
+      "time": "2日前",
       "relatedHistory": [
         {
           "year": "1945年",
@@ -665,105 +717,103 @@
       ]
     },
     {
-      "id": "jcr3ia",
-      "title": "UK, Canada and Australia condemn Israel for refusing criminal probe into aid worker killings in Gaza",
-      "summary": "Seven World Central Kitchen workers were killed in the Israeli strike on their convoy in 2024.",
-      "content": "Seven World Central Kitchen workers were killed in the Israeli strike on their convoy in 2024. ",
+      "id": "1eqcm7",
+      "title": "Fourteen killed in strike on Myanmar monastery",
+      "summary": "A rescue worker said the site had been struck twice as civilians gathered for a meditation retreat.",
+      "content": "A rescue worker said the site had been struck twice as civilians gathered for a meditation retreat.",
       "region": "ヨーロッパ",
       "priority": "重要",
-      "time": "5時間前",
+      "time": "7時間前",
       "relatedHistory": [
         {
-          "year": "1948年",
-          "title": "イスラエル独立戦争",
-          "description": "イスラエル建国を巡り、アラブ諸国との間で勃発した戦争。多くのパレスチナ人が家を追われ、難民となる。",
-          "significance": "現在のイスラエルとパレスチナの紛争の根源となった背景。"
+          "year": "1988年",
+          "title": "アウンサンスーチーへの弾圧と民主化運動",
+          "description": "アウンサンスーチー氏の弾圧をきっかけに、大規模な民主化運動が起こった。軍事政権による武力鎮圧が行われ、多くの人々が犠牲になった。",
+          "significance": "軍事政権の暴力性と人権侵害の歴史的背景。現在の状況と類似点あり。"
         },
         {
-          "year": "1967年",
-          "title": "第三次中東戦争（六日間戦争）",
-          "description": "イスラエルがヨルダン川西岸、ガザ地区、シナイ半島などを占領した戦争。パレスチナ人の居住地への影響が大きい。",
-          "significance": "ガザ地区の地理的・政治的状況に大きな影響を与えた。"
-        },
-        {
-          "year": "2006年",
-          "title": "ハマスのガザ地区支配",
-          "description": "ハマスがガザ地区で勝利し、イスラエルとの間で頻繁な武力衝突が発生。人道危機が深刻化。",
-          "significance": "ガザ地区の政治状況と紛争の継続に繋がる重要な出来事。"
-        },
-        {
-          "year": "2014年",
-          "title": "第四次中東戦争（ガザ地区攻撃）",
-          "description": "イスラエルがハマスを標的とした大規模な軍事作戦を実施。多くのガザ地区住民が犠牲になった。",
-          "significance": "ガザ地区における人道危機と国際的な非難を深刻化した。"
+          "year": "2008年",
+          "title": "新たな憲法の制定",
+          "description": "軍事政権が制定した新憲法は、軍部に強い権限を留保し、民主化の進展を阻害する要因となった。",
+          "significance": "軍事政権の政治的影響力の根源。現在の状況と関連。"
         },
         {
           "year": "2021年",
-          "title": "イスラエルとハマスの停戦",
-          "description": "イスラエルとハマスの間で、数日間の武力衝突の後に停戦合意が成立。しかし、根本的な問題は解決されていない。",
-          "significance": "紛争の一時的な停止であり、将来的な再発の可能性を示唆している。"
-        }
-      ],
-      "tags": [
-        "テクノロジー"
-      ],
-      "link": "https://www.bbc.co.uk/news/articles/cvgl2pe09eno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News World",
-      "historicalSummary": "イスラエルがガザ地区での支援者殺害に関する刑事捜査に固執しない姿勢を表明したことに対し、英国、カナダ、オーストラリアが共同で非難声明を発表しました。これは、2024年発生した世界中央キッチン（World Central Kitchen）の支援者7名殺害事件に対する国際的な懸念の高まりを反映しています。ガザ地区での紛争は複雑な歴史的背景を持ち、人道支援の確保は常に困難を伴ってきました。過去には、国際的な人道支援活動が紛争によって妨げられた事例が数多く存在します。今回の件は、国際法遵守と紛争解決への道筋を改めて問うものであり、関係各国は外交努力を通じて事態の改善を目指す必要があります。特に、過去の同様事例（例えば、2022年のアフガニスタンでの人道支援物資の滞留など）と比較し、より効果的な対応策を検討することが重要です。",
-      "threeLineSummary": [
-        "イスラエルによるガザ地区での支援者殺害に関する捜査拒否を、英国、カナダ、オーストラリアが非難。",
-        "イスラエルとハマスの紛争激化の中、国際社会からの圧力が強まる。人道支援の確保が課題。",
-        "国際法遵守と紛争解決への道筋が問われる。過去の同様事例と比較し、今後の外交努力が重要。"
-      ]
-    },
-    {
-      "id": "3ehiho",
-      "title": "Meghan in talks for role in Netflix series The Gentlemen, BBC understands",
-      "summary": "This would be Meghan's first significant acting role since her marriage to Prince Harry.",
-      "content": "This would be Meghan's first significant acting role since her marriage to Prince Harry.",
-      "region": "ヨーロッパ",
-      "priority": "重要",
-      "time": "2時間前",
-      "relatedHistory": [
-        {
-          "year": "1969年",
-          "title": "イギリス王室におけるメディア戦略の変化",
-          "description": "チャールズ皇太子がメディアとの関係改善に尽力し、公の場での露出を積極的に行うようになった。",
-          "significance": "王室とメディアの関係構築の先駆けとなり、現代の王室のコミュニケーション戦略に影響を与えた。"
-        },
-        {
-          "year": "1992年",
-          "title": "チャールズ皇太子とダイアナ妃の離婚",
-          "description": "王室の伝統と現代的な価値観の衝突を象徴する出来事であり、王室のイメージ刷新の必要性を浮き彫りにした。",
-          "significance": "王室の透明性向上や社会貢献活動への注力につながり、メーガン妃の活動にも影響を与えた可能性がある。"
-        },
-        {
-          "year": "2011年",
-          "title": "ウィリアム王子とキャサリン妃の結婚",
-          "description": "伝統的な王室のイメージを維持しつつ、現代的な要素を取り入れた結婚式は、王室の新たな方向性を示唆した。",
-          "significance": "王室のイメージ戦略における新しいモデルとなり、メーガン妃がその流れを汲む可能性がある。"
+          "title": "軍事クーデター",
+          "description": "アウンサンスーチー氏率いる選出政府が崩壊し、軍事政権が権力を掌握。民主化への道のりは大きく後退した。",
+          "significance": "現在の政治的混乱の直接的な原因。人道危機を深刻化。"
         },
         {
           "year": "2021年",
-          "title": "イギリス王室の多様性と包容性への取り組み",
-          "description": "王室は、人種、宗教、性的指向など、多様な背景を持つ人々を積極的に支援する姿勢を示し始めた。",
-          "significance": "メーガン妃がこれまで推進してきた社会的なメッセージと合致し、彼女の活動を後押ししている。"
+          "title": "人権侵害の報告増加",
+          "description": "軍事クーデター後、ミャンマー国内で人権侵害の報告が急増。市民に対する弾圧や暴力が頻発している。",
+          "significance": "現在の攻撃の背景にある人道危機と関連。"
         },
         {
           "year": "2022年",
-          "title": "イギリス王室のメディア戦略再編",
-          "description": "王室は、より多様なメディアプラットフォームを活用し、若者層へのアプローチを強化する戦略を打ち出している。",
-          "significance": "メーガン妃がNetflixとの契約を通じて、自身のメッセージを広めるための新たな手段を開拓した例となる。"
+          "title": "国内紛争の激化",
+          "description": "軍事クーデター後、国軍と少数民族武装勢力との間で国内紛争が激化。多くの人々が家を追われ、避難生活を送っている。",
+          "significance": "今回の攻撃が起こった背景にある不安定な情勢を示す。"
         }
       ],
       "tags": [],
-      "link": "https://www.bbc.co.uk/news/articles/cwye9g9r58zo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/cqlxlvz01z1o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News World",
-      "historicalSummary": "メーガン妃がNetflixシリーズへの出演を検討しているというニュースは、彼女の王室退任後のキャリアにおける重要な一歩と捉えることができます。彼女の演技活動は単なる個人的な選択ではなく、公的イメージの再構築や社会貢献活動との関連性も示唆しています。これは、伝統的な王室の役割が変化しつつある現代社会における王族の存在意義を反映するものであり、過去の王族の活動やメディア戦略と比較することで、より深く理解することができます。特に、女性のエンパワーメントや社会問題への関与といった現代的な価値観と結びついている点が重要です。",
+      "historicalSummary": "ミャンマーの僧院への攻撃は、長年にわたる民族紛争と政治的混乱が背景にある。2021年の軍事クーデター以降、国内の治安は悪化の一途を辿り、市民は安全な場所を求めて避難を余儀なくされている。今回の攻撃は、宗教施設への標的攻撃という点で、紛争のさらなる激化を示唆する。過去には、ミャンマーにおける少数民族との紛争や、軍事政権による弾圧が繰り返されてきた。国際社会は、人道支援と責任追及を強く訴える必要がある。",
       "threeLineSummary": [
-        "メーガン妃がNetflixシリーズ「The Gentlemen」への出演を検討中。",
-        "ハリー王子との結婚後初の本格的な演技活動となる可能性があり、王室離脱後の活動の一環。",
-        "王室とメディアの関係の変化を示すものであり、現代の王室の役割再定義の象徴となるかもしれない。"
+        "ミャンマーの僧院が攻撃され、14人が死亡した。",
+        "市民が瞑想のために集まっていた場所への攻撃で、国内の不安定な情勢が示唆される。",
+        "国際社会は人道支援と責任追及を求む。過去の同様の事件は、民族紛争の深刻さを浮き彫りにする。"
+      ]
+    },
+    {
+      "id": "mjfiyq",
+      "title": "Lindsay Clancy suffering 'command hallucination' when she killed children, court hears",
+      "summary": "The defence brought their final witness - a forensic psychiatrist - to the stand to testify about the effects of postpartum psychosis.",
+      "content": "The defence brought their final witness - a forensic psychiatrist - to the stand to testify about the effects of postpartum psychosis.",
+      "region": "ヨーロッパ",
+      "priority": "重要",
+      "time": "17時間前",
+      "relatedHistory": [
+        {
+          "year": "1945年",
+          "title": "第二次世界大戦終結",
+          "description": "戦後の社会不安、女性の役割の変化が精神衛生に影響を与えた。戦争トラウマと産後精神病の関連性が指摘される。",
+          "significance": "社会背景の変化が精神疾患に与える影響を知る。"
+        },
+        {
+          "year": "1960年代",
+          "title": "女性解放運動の高まり",
+          "description": "女性の社会進出と負担増による精神的ストレスが増加。産後精神病のリスクが高まる可能性が示唆された。",
+          "significance": "社会的変化と精神衛生の関係を理解する。"
+        },
+        {
+          "year": "1980年代",
+          "title": "精神保健福祉法の制定",
+          "description": "精神疾患を持つ人々の権利擁護と社会復帰を目的とした法整備。精神医療のあり方への議論が活発化。",
+          "significance": "精神医療制度の変遷を知る。"
+        },
+        {
+          "year": "2015年",
+          "title": "精神疾患に対するスティグマ（偏見）の低減運動",
+          "description": "メディアや社会における精神疾患に関する誤ったイメージを払拭する試み。早期発見と適切な治療の重要性が強調される。",
+          "significance": "精神疾患に対する社会認識の変化を知る。"
+        },
+        {
+          "year": "2021年",
+          "title": "COVID-19パンデミック",
+          "description": "パンデミックによる孤立、経済的困難、社会不安が精神衛生に悪影響を与え、産後精神病のリスクを高める可能性が指摘されている。",
+          "significance": "近年の社会状況と精神疾患の関連性を理解する。"
+        }
+      ],
+      "tags": [],
+      "link": "https://www.bbc.co.uk/news/articles/c62xpre63j2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News World",
+      "historicalSummary": "このニュースは、産後精神病（postpartum psychosis）という深刻な精神疾患と児童殺害という重大な犯罪との関連性を示唆しています。産後精神病は、出産後の女性に発症し、幻覚や妄想、現実感の喪失などを引き起こす可能性があります。社会的なサポート体制の不足や、精神医療へのアクセス不足が原因となる場合があり、適切なケアを提供することが重要です。過去の類似事例と比較すると、精神疾患と犯罪の関連性に関する認識が深まっている一方で、依然として十分な支援が行き届いていない現状が浮き彫りになります。この事件は、精神医療の充実と、社会全体での精神疾患に対する理解を深める必要性を訴えています。",
+      "threeLineSummary": [
+        "被告は産後精神病による「命令幻覚」を抱え、児童殺害を実行したと主張。",
+        "産後精神病は、出産後の女性に発症する深刻な精神疾患であり、社会的なサポート不足が原因となる場合がある。",
+        "この事件は、精神疾患と犯罪の関連性、そして精神医療におけるケアの重要性を示唆する。"
       ]
     },
     {
@@ -773,7 +823,7 @@
       "content": "The state premier initially said Lily Hooper had been found alive before police confirmed her death.",
       "region": "アジア",
       "priority": "重要",
-      "time": "1日前",
+      "time": "2日前",
       "relatedHistory": [
         {
           "year": "2021年",
@@ -817,55 +867,55 @@
       ]
     },
     {
-      "id": "n4ionf",
-      "title": "Thai teen found in suitcase died from suffocation, police reveal",
-      "summary": "New evidence sheds more light on the death of Tunchanok Donholma, who was allegedly murdered in June.",
-      "content": "New evidence sheds more light on the death of Tunchanok Donholma, who was allegedly murdered in June.",
-      "region": "アジア",
+      "id": "tim2bw",
+      "title": "UK, Canada and Australia condemn Israel for refusing criminal probe into aid worker killings in Gaza",
+      "summary": "Seven World Central Kitchen workers were killed in the Israeli strike on their convoy in 2024.",
+      "content": "Seven World Central Kitchen workers were killed in the Israeli strike on their convoy in 2024. ",
+      "region": "中東",
       "priority": "重要",
-      "time": "2日前",
+      "time": "1日前",
       "relatedHistory": [
         {
-          "year": "2014年",
-          "title": "タイ北部の山岳地帯における人身売買事件",
-          "description": "山岳地帯の貧困層を狙った人身売買事件が頻発。女性や子供が性的搾取や強制労働の犠牲となる。",
-          "significance": "児童労働、人身売買問題の深刻さを示す。今回の事件との類似性あり。"
+          "year": "1948年",
+          "title": "イスラエル独立戦争",
+          "description": "イスラエル建国を巡り、アラブ諸国との間で勃発した戦争。多くのパレスチナ人が家を追われ、難民となる。",
+          "significance": "現在のイスラエルとパレスチナの紛争の根源となった背景。"
         },
         {
-          "year": "2018年",
-          "title": "インドネシアにおける児童労働問題の報道",
-          "description": "アパレル産業などでの児童労働の実態が国際的に報道され、各国政府や企業の責任が問われた。",
-          "significance": "サプライチェーンにおける人権侵害の意識高まり。今回の事件も同様の問題の一側面。"
+          "year": "1967年",
+          "title": "第三次中東戦争（六日間戦争）",
+          "description": "イスラエルがヨルダン川西岸、ガザ地区、シナイ半島などを占領した戦争。パレスチナ人の居住地への影響が大きい。",
+          "significance": "ガザ地区の地理的・政治的状況に大きな影響を与えた。"
+        },
+        {
+          "year": "2006年",
+          "title": "ハマスのガザ地区支配",
+          "description": "ハマスがガザ地区で勝利し、イスラエルとの間で頻繁な武力衝突が発生。人道危機が深刻化。",
+          "significance": "ガザ地区の政治状況と紛争の継続に繋がる重要な出来事。"
+        },
+        {
+          "year": "2014年",
+          "title": "第四次中東戦争（ガザ地区攻撃）",
+          "description": "イスラエルがハマスを標的とした大規模な軍事作戦を実施。多くのガザ地区住民が犠牲になった。",
+          "significance": "ガザ地区における人道危機と国際的な非難を深刻化した。"
         },
         {
           "year": "2021年",
-          "title": "アフガニスタンにおける女性の権利制限",
-          "description": "タリバンによる女性の教育や社会参加の制限が強化され、女性の脆弱性が高まった。",
-          "significance": "社会的弱者に対する保護の重要性。今回の事件と関連し、安全保障の必要性を訴える。"
-        },
-        {
-          "year": "2022年",
-          "title": "東南アジアにおけるサイバー犯罪の増加",
-          "description": "オンラインでの詐欺や人身売買などのサイバー犯罪が増加し、被害者の保護が課題となっている。",
-          "significance": "新たな犯罪手法による弱者への搾取。今回の事件も同様のリスク要因を持つ。"
-        },
-        {
-          "year": "2023年",
-          "title": "タイにおける観光産業と人権問題",
-          "description": "観光客向けのサービス提供において、労働者の搾取や児童労働などの人権侵害が指摘されている。",
-          "significance": "経済発展に伴う社会的な格差。今回の事件も関連し、持続可能な開発の必要性を示唆する。"
+          "title": "イスラエルとハマスの停戦",
+          "description": "イスラエルとハマスの間で、数日間の武力衝突の後に停戦合意が成立。しかし、根本的な問題は解決されていない。",
+          "significance": "紛争の一時的な停止であり、将来的な再発の可能性を示唆している。"
         }
       ],
       "tags": [
         "テクノロジー"
       ],
-      "link": "https://www.bbc.co.uk/news/articles/c141605846jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News Asia",
-      "historicalSummary": "タイの女子高生の死は、近年のアジア地域における社会問題の深刻さを浮き彫りにしています。2023年6月に殺害されたと疑われる事件の真相が明らかになる中、この悲劇は、児童労働や人身売買といった脆弱な立場にある人々に対する安全保障の欠如を強く示唆しています。過去には、同様のケースが報告されており、社会構造的な問題への取り組みの遅れが背景にあると考えられます。今回の事件は、単なる個人の悲劇ではなく、地域社会全体の安全網の強化と、弱者保護のための法整備の必要性を訴える重要な出来事として捉えられます。",
+      "link": "https://www.bbc.co.uk/news/articles/cvgl2pe09eno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News Middle East",
+      "historicalSummary": "イスラエルがガザ地区での支援者殺害に関する刑事捜査に固執しない姿勢を表明したことに対し、英国、カナダ、オーストラリアが共同で非難声明を発表しました。これは、2024年発生した世界中央キッチン（World Central Kitchen）の支援者7名殺害事件に対する国際的な懸念の高まりを反映しています。ガザ地区での紛争は複雑な歴史的背景を持ち、人道支援の確保は常に困難を伴ってきました。過去には、国際的な人道支援活動が紛争によって妨げられた事例が数多く存在します。今回の件は、国際法遵守と紛争解決への道筋を改めて問うものであり、関係各国は外交努力を通じて事態の改善を目指す必要があります。特に、過去の同様事例（例えば、2022年のアフガニスタンでの人道支援物資の滞留など）と比較し、より効果的な対応策を検討することが重要です。",
       "threeLineSummary": [
-        "タイの女子高生、トゥンチャノック・ドンホルマさんがスーツケース内で窒息死したと判明。",
-        "2023年6月に殺害されたと疑われており、事件の真相解明が進んでいる。",
-        "児童労働や人身売買など、アジアにおける脆弱な立場にある人々の安全保障問題を示唆する。"
+        "イスラエルによるガザ地区での支援者殺害に関する捜査拒否を、英国、カナダ、オーストラリアが非難。",
+        "イスラエルとハマスの紛争激化の中、国際社会からの圧力が強まる。人道支援の確保が課題。",
+        "国際法遵守と紛争解決への道筋が問われる。過去の同様事例と比較し、今後の外交努力が重要。"
       ]
     },
     {
@@ -875,7 +925,7 @@
       "content": "Once a giant of African politics, the PDP is in danger of being wiped out after January's elections.",
       "region": "アフリカ",
       "priority": "重要",
-      "time": "21時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "1967年",
@@ -925,7 +975,7 @@
       "content": "The musical icon from Benin tells the BBC about why Africa and Africans are so important to music.",
       "region": "アフリカ",
       "priority": "重要",
-      "time": "1日前",
+      "time": "2日前",
       "relatedHistory": [
         {
           "year": "1960年",
@@ -969,13 +1019,63 @@
       ]
     },
     {
+      "id": "12b5ix",
+      "title": "Mother suffering 'command hallucination' when she killed children, court hears",
+      "summary": "The defence brought their final witness - a forensic psychiatrist - to the stand to testify about the effects of postpartum psychosis.",
+      "content": "The defence brought their final witness - a forensic psychiatrist - to the stand to testify about the effects of postpartum psychosis.",
+      "region": "アメリカ",
+      "priority": "重要",
+      "time": "17時間前",
+      "relatedHistory": [
+        {
+          "year": "1950年",
+          "title": "産後精神病に関する初期の研究",
+          "description": "産後精神病の症状や原因に関する初期の研究が行われ、社会的な認識が徐々に高まり始めた。",
+          "significance": "現代の理解の基礎となり、早期診断・治療への道を開いた。"
+        },
+        {
+          "year": "1970年代",
+          "title": "産後精神病に対する社会的な偏見",
+          "description": "産後精神病に対する社会的な偏見が強く、患者が stigmatization (社会的な烙印) を受けることが多かった。",
+          "significance": "現代でも、患者への理解不足は依然として課題となっている。"
+        },
+        {
+          "year": "1980年代",
+          "title": "産後精神病の診断基準の確立",
+          "description": "DSM（精神疾患の診断・統計マニュアル）において、産後精神病の診断基準が確立され、診断の精度が向上した。",
+          "significance": "早期発見と適切な治療を可能にし、患者のQOL (生活の質) 向上に貢献した。"
+        },
+        {
+          "year": "2010年代",
+          "title": "産後精神病に関する啓発活動の活発化",
+          "description": "メディアや医療機関による産後精神病に関する啓発活動が活発化し、社会的な認識が高まった。",
+          "significance": "早期発見と適切な治療を促し、患者への支援体制の構築につながった。"
+        },
+        {
+          "year": "2021年",
+          "title": "COVID-19パンデミックによる精神衛生への影響",
+          "description": "COVID-19パンデミックが産後精神病の発症リスクを高める可能性が指摘され、医療機関での注意喚起が行われた。",
+          "significance": "社会経済的ストレスが産後精神病に与える影響を改めて認識させた。"
+        }
+      ],
+      "tags": [],
+      "link": "https://www.bbc.co.uk/news/articles/c62xpre63j2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News US & Canada",
+      "historicalSummary": "このニュースは、母親が子供を殺害した際に「命令幻覚」を体験していた可能性について報じており、産後精神病（産後強迫性障害）という深刻な精神疾患との関連を示唆しています。産後精神病は、出産後の女性に発症するものであり、ホルモンバランスの変化や社会経済的なストレスなどが原因となることがあります。過去には、産後精神病に対する理解が不足し、適切な治療や支援が得られないまま被害が拡大するケースもありました。今回の事件は、産後精神病の早期発見と適切な医療へのアクセスを改善する必要性を訴え、社会全体で産婦人科医療をサポートする体制を構築することの重要性を示唆しています。過去の類似事例と比較すると、同様の状況下での悲劇が繰り返されている可能性があり、予防策の強化が急務です。",
+      "threeLineSummary": [
+        "母親が子供を殺害した際、「命令幻覚」に苦しんでいたと、精神病学者証言。",
+        "産後精神病は、出産後の女性に発症する深刻な精神疾患であり、社会経済的ストレスやホルモン変化が原因となる可能性。",
+        "この事件は、産後精神病の理解と治療の重要性を改めて浮き彫りにし、社会的な支援体制の必要性を示唆する。"
+      ]
+    },
+    {
       "id": "u379fr",
       "title": "台風13号 影響は長時間続く 警戒を 台風15号の動きは?",
       "summary": "大型で非常に強い台風13号は、沖縄本島の西の海上を進んでいます。沖縄・奄美では風や雨の影響が長時間続いていて、土砂災害などに厳重な警戒を続けてください。",
       "content": "大型で非常に強い台風13号は、沖縄本島の西の海上を進んでいます。沖縄・奄美では風や雨の影響が長時間続いていて、土砂災害などに厳重な警戒を続けてください。",
       "region": "アジア",
       "priority": "通常",
-      "time": "13日前",
+      "time": "14日前",
       "relatedHistory": [
         {
           "year": "1990年",
@@ -1025,7 +1125,7 @@
       "content": "8日、愛知県内の海と川で水難事故が相次ぎ、2人が死亡しました。",
       "region": "アジア",
       "priority": "通常",
-      "time": "13日前",
+      "time": "14日前",
       "relatedHistory": [
         {
           "year": "2021年",
@@ -1075,7 +1175,7 @@
       "content": "7月28日に発生した最大震度7の地震は、「日奈久断層帯」のうち、10年前の熊本地震の際に活動した場所と隣り合う領域がずれ動き、発生したとみられることが専門家の分析で分かりました。断層帯には割れ残っているところがあるとして、専門家は「いつかは分からないが、今後、地震を引き起こす可能性もあるため、注意が必要だ」と指摘しています。",
       "region": "アジア",
       "priority": "通常",
-      "time": "13日前",
+      "time": "14日前",
       "relatedHistory": [
         {
           "year": "2016年",
@@ -1125,7 +1225,7 @@
       "content": "ラグビーリーグワンの2部にあたるディビジョン2の「九州電力キューデンヴォルテクス」は、チームに所属するサイモニ・ヴニランギ選手が熱中症の疑いで病院に搬送され、その後、死亡したと発表しました。",
       "region": "アジア",
       "priority": "通常",
-      "time": "13日前",
+      "time": "14日前",
       "relatedHistory": [
         {
           "year": "2015年",
@@ -1175,7 +1275,7 @@
       "content": "韓国のサッカー協会が、代表チームの国際試合を担当した日本を含む外国の審判員などに「性的な接待を行っていた」と複数のメディアが伝え、協会は8日、組織運営に批判が高まっていることなどを含め、一連の騒動を謝罪しました。",
       "region": "アジア",
       "priority": "通常",
-      "time": "13日前",
+      "time": "14日前",
       "relatedHistory": [
         {
           "year": "2016年",
@@ -1225,7 +1325,7 @@
       "content": "大リーグ、マリナーズなどで活躍し去年アメリカで野球殿堂入りしたイチローさんが、マリナーズの創設50周年を記念したOBによるホームラン競争に参加し、フェンスを越える当たりを連発して多くのファンをわかせました。",
       "region": "アジア",
       "priority": "通常",
-      "time": "13日前",
+      "time": "14日前",
       "relatedHistory": [
         {
           "year": "1964年",
@@ -1269,13 +1369,213 @@
       ]
     },
     {
+      "id": "xysnqp",
+      "title": "Carney faces crucial test after walking away from Trump's deal",
+      "summary": "The Canadian prime minister will have to sell his gamble that walking away from talks with the White House will be worth the consequences.",
+      "content": "The Canadian prime minister will have to sell his gamble that walking away from talks with the White House will be worth the consequences. ",
+      "region": "ヨーロッパ",
+      "priority": "通常",
+      "time": "1時間前",
+      "relatedHistory": [
+        {
+          "year": "1930年",
+          "title": "世界恐慌",
+          "description": "世界的な経済危機が発生し、各国が自国経済の保護のために関税を導入。多国間貿易体制が崩壊。",
+          "significance": "保護主義の復活と、国家主権優先の考え方を想起させる。"
+        },
+        {
+          "year": "1944年",
+          "title": "ブレトンウッズ協定",
+          "description": "国際通貨基金（IMF）と国際通貨準備銀行（IWF）が設立され、固定相場制が確立。多国間協調の試み。",
+          "significance": "現在の貿易体制の基礎を築いた。今回の行動は、その枠組みからの逸脱と言える。"
+        },
+        {
+          "year": "1973年",
+          "title": "第一次石油危機",
+          "description": "石油価格の高騰が世界経済に大きな影響を与え、各国がエネルギー安全保障を重視するようになる。",
+          "significance": "資源依存からの脱却と、自給率向上への意識を高める背景にある。"
+        },
+        {
+          "year": "2008年",
+          "title": "世界金融危機",
+          "description": "リーマン・ショックを引き起こし、各国が金融システム改革や経済対策を実施。グローバル化の脆弱性が露呈。",
+          "significance": "国家主権と金融規制の関係における議論を活発化させた。"
+        },
+        {
+          "year": "2016年",
+          "title": "Brexit",
+          "description": "イギリスが欧州連合（EU）から離脱。多国間協定からの離脱という、カナダの行動と類似性を持つ。",
+          "significance": "国家主権の行使と、経済的影響に関する議論を喚起する。"
+        }
+      ],
+      "tags": [],
+      "link": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News World",
+      "historicalSummary": "カナダ首相がトランプ政権との貿易協定からの離脱というリスクを冒したことは、歴史的に見て、国家主権と国際貿易のバランスにおける重要な転換点となりうる。過去には、各国が自国の経済的利益のために既存の多国間協定を破棄したり、独自の貿易政策を推進したりするケースが見られた。今回のカナダの行動は、保護主義的な政策の台頭や、グローバル化に対する反発の高まりといった現代的な潮流と関連している。特に、米中貿易摩擦の激化や、Brexitのような主要な国際協定からの離脱は、国家間の経済関係における不確実性を増大させている。カナダがこのリスクを乗り越え、独自の経済成長を達成できるかは、今後の外交戦略と国内政策に大きく依存するだろう。",
+      "threeLineSummary": [
+        "カナダ首相は、ホワイトハウスとの交渉からの離脱が結果的に正しかったかを証明する必要がある。",
+        "トランプ政権との貿易交渉の失敗を背景に、カナダが独自の経済戦略を模索している。",
+        "この行動は、米中関係の不確実性の中で、多国間貿易におけるカナダの役割を再定義する可能性がある。"
+      ]
+    },
+    {
+      "id": "afpjn4",
+      "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
+      "summary": "The deal stems from a 2024 lawsuit alleging TikTok and its parent company ByteDance collected \"vast amounts of data\" on millions of users under the age of 13.",
+      "content": "The deal stems from a 2024 lawsuit alleging TikTok and its parent company ByteDance collected \"vast amounts of data\" on millions of users under the age of 13.",
+      "region": "ヨーロッパ",
+      "priority": "通常",
+      "time": "22時間前",
+      "relatedHistory": [
+        {
+          "year": "1996年",
+          "title": "児童オンラインプライバシー保護法（COPPA）制定",
+          "description": "米国で児童オンラインプライバシー保護法が制定され、13歳未満の子供のオンラインデータ収集に関する保護規定が設けられた。",
+          "significance": "児童データの保護に関する法的枠組みの先駆けであり、TikTok訴訟の背景にある。"
+        },
+        {
+          "year": "2013年",
+          "title": "Facebookのデータプライバシー問題",
+          "description": "Facebookがユーザーデータの取り扱いに問題があり、プライバシー設定の不備などが指摘され、批判を浴びた。",
+          "significance": "ソーシャルメディアプラットフォームにおけるプライバシー保護への意識が高まるきっかけとなった。"
+        },
+        {
+          "year": "2018年",
+          "title": "GDPR（一般データ保護規則）施行",
+          "description": "EUでGDPRが施行され、個人データの保護に関する規制が強化された。",
+          "significance": "国際的なデータ保護の基準となり、TikTokのようなグローバル企業にも影響を与えている。"
+        },
+        {
+          "year": "2021年",
+          "title": "米国でTikTokの安全保障懸念",
+          "description": "米国政府がTikTokのデータ収集と中国政府との関係から、安全保障上の懸念を表明し、規制強化を検討した。",
+          "significance": "TikTokに対する規制圧力が高まり、今回の和解につながる一因となった。"
+        },
+        {
+          "year": "2023年",
+          "title": "カリフォルニア州プライバシー権法（CCPA）施行",
+          "description": "カリフォルニア州でCCPAが施行され、消費者の個人情報に関する権利が強化された。",
+          "significance": "米国におけるデータプライバシー保護の動きを加速させ、他の州にも影響を与えている。"
+        }
+      ],
+      "tags": [],
+      "link": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News World",
+      "historicalSummary": "TikTokが4億ドルの和解に合意した件は、児童プライバシー保護の観点から大きな意味を持つ。2024年の訴訟では、TikTokと親会社ByteDanceが13歳未満のユーザーから膨大なデータを収集していると主張された。これは、ソーシャルメディアプラットフォームにおける子供のデータ保護の課題を浮き彫りにするものであり、各国政府による規制強化の動機となる可能性がある。過去には、FacebookやGoogleなども同様のプライバシー問題で批判を浴びてきたが、今回のTikTokの和解は、児童に対するデータ収集の透明性と安全性を確保するための重要な一歩となるだろう。また、外国政府によるデータアクセスへの懸念も背景にあり、国際的なデータ保護の枠組み構築への影響も考えられる。",
+      "threeLineSummary": [
+        "TikTokが、13歳未満のユーザーに関するデータ収集疑惑で米国政府と4億ドルの和解に合意。",
+        "児童プライバシー保護の強化や、外国政府によるデータアクセスへの懸念が背景にある。",
+        "大企業による子供のデータ保護の重要性を示す事例であり、今後の規制強化につながる可能性も。"
+      ]
+    },
+    {
+      "id": "osg41l",
+      "title": "US military newspaper editor voices censorship fears after being fired",
+      "summary": "Erik Slavin believes he was fired for saying in an interview that \"in a hypothetical situation, censorship would be a red line\".",
+      "content": "Erik Slavin believes he was fired for saying in an interview that \"in a hypothetical situation, censorship would be a red line\".",
+      "region": "ヨーロッパ",
+      "priority": "通常",
+      "time": "4時間前",
+      "relatedHistory": [
+        {
+          "year": "1933年",
+          "title": "ナチス・ドイツによるメディア統制開始",
+          "description": "ナチス政権が、新聞、ラジオ、映画などのメディアを政府の統制下に置いた。反体制派の情報を排除し、プロパガンダを流布。",
+          "significance": "情報統制の危険性、権力による報道の自由の抑圧を示す。"
+        },
+        {
+          "year": "1945年",
+          "title": "第二次世界大戦終結と戦後民主主義の確立",
+          "description": "ナチス・ドイツの敗北により、ヨーロッパを中心に民主主義が確立。報道の自由が憲法で保障されるようになった。",
+          "significance": "報道の自由の重要性と、権力による情報統制からの解放を示す。"
+        },
+        {
+          "year": "1960年",
+          "title": "ウォーターゲート事件",
+          "description": "ニクソン政権による不正行為が発覚。メディアによる真相報道が政治を変革するきっかけとなった。",
+          "significance": "メディアの役割と、政府の情報隠蔽に対する監視の重要性を示す。"
+        },
+        {
+          "year": "1989年",
+          "title": "ベルリンの壁崩壊",
+          "description": "東西冷戦の終結。東ドイツにおける検閲が廃止され、情報公開が進んだ。",
+          "significance": "権威主義体制下での情報統制からの解放と、民主化の進展を示す。"
+        },
+        {
+          "year": "2017年",
+          "title": "ロシアのメディア規制強化",
+          "description": "ロシア政府が、メディアに対する規制を強化。独立系のメディアへの圧力や、プロパガンダの流布が行われている。",
+          "significance": "現代における情報統制の新たな形態と、報道の自由に対する脅威を示す。"
+        }
+      ],
+      "tags": [],
+      "link": "https://www.bbc.co.uk/news/articles/cm2g23ng8p4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News World",
+      "historicalSummary": "米軍の新聞編集者の解雇は、報道の自由に対する深刻な脅威として捉えられます。彼は、仮説上の検閲に関する発言が解雇の理由だと主張しており、これは情報公開と透明性の原則に反する可能性があります。過去には、政府によるメディア統制や情報操作が行われてきた事例があり、今回の事件はその歴史的経緯を想起させます。特に、戦争時におけるプロパガンダや、権力維持のための情報隠蔽は、民主主義社会の根幹を揺るがす危険性があります。現代社会においても、フェイクニュースや誤情報が拡散しやすく、メディアの独立性とジャーナリズムの役割が重要視されています。今回の事件は、そのような状況下で報道の自由を守り、情報統制の危険性を認識する必要性を示唆しています。",
+      "threeLineSummary": [
+        "米軍の新聞編集者が、仮説上の検閲に関する発言で解雇されたと主張。",
+        "報道の自由と軍内部での検閲への懸念が高まる中、情報公開と透明性の重要性が浮上。",
+        "過去の歴史的事例を踏まえ、情報統制の危険性と民主主義の根幹を揺るがす可能性を示唆。"
+      ]
+    },
+    {
+      "id": "dxqjhs",
+      "title": "Father leaves 7-year-old son alone on Mount Fuji to continue hike",
+      "summary": "The man had taken his two boys on the trip but is said to have left one behind when he got tired.",
+      "content": "The man had taken his two boys on the trip but is said to have left one behind when he got tired.",
+      "region": "ヨーロッパ",
+      "priority": "通常",
+      "time": "6時間前",
+      "relatedHistory": [
+        {
+          "year": "1930年",
+          "title": "日本山岳遭難事件の増加",
+          "description": "大正時代から昭和初期にかけて、登山技術の未熟さや装備不足が原因で山岳遭難が増加。安全対策の必要性が認識された。",
+          "significance": "現代の登山における安全対策の重要性を再認識させる。"
+        },
+        {
+          "year": "1960年",
+          "title": "富士山登山規制の開始",
+          "description": "登山者の安全確保のため、富士山の登山道が規制され、登山計画の提出などが義務付けられた。",
+          "significance": "現代の登山における安全管理体制の基礎となった。"
+        },
+        {
+          "year": "1980年",
+          "title": "環境保護意識の高まり",
+          "description": "自然保護運動が活発化し、登山中のゴミの持ち帰りや、自然への配慮が強く求められるようになった。",
+          "significance": "現代の登山における環境倫理の重要性を強調する。"
+        },
+        {
+          "year": "2015年",
+          "title": "登山客の急増と混雑",
+          "description": "富士山への登山客が急増し、登山道の混雑や、遭難事故のリスクが高まった。",
+          "significance": "現代の登山における安全対策の課題を浮き彫りにする。"
+        },
+        {
+          "year": "2021年",
+          "title": "新型コロナウイルス感染症による登山制限",
+          "description": "感染拡大防止のため、富士山の登山が一時的に制限され、登山計画の事前登録などが義務付けられた。",
+          "significance": "緊急時における登山管理の重要性と、社会情勢との関連性を示す。"
+        }
+      ],
+      "tags": [],
+      "link": "https://www.bbc.co.uk/news/articles/c93403wg288o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News World",
+      "historicalSummary": "このニュースは、ヨーロッパで発生した父親が7歳の息子を富士山に置き去りにしたという衝撃的な事件を報じています。登山中の父親が疲れたことを理由に子供を置き去りにするという行為は、現代社会における親の責任感や安全意識の欠如を浮き彫りにします。過去には、同様の事例は稀ですが、近年、過酷な自然環境下での事故や、親の虐待による子供の置き去り事件が報告されています。この事件は、家族のあり方、子どもの安全確保、そして自然保護に対する意識の重要性を改めて問うものです。また、登山における危険性や、事前の計画性、緊急時の対応などについても、教訓を与えてくれるでしょう。",
+      "threeLineSummary": [
+        "父親が疲れて、7歳の息子を富士山に置き去りにしたという事件。",
+        "登山中の父親が子供を置き去りにする行為は、親の責任と安全意識の欠如を示す。",
+        "この事件は、現代社会における家族のあり方と、自然環境への配慮を問う事例となる。"
+      ]
+    },
+    {
       "id": "dn0hxn",
       "title": "Israel re-establishes closed West Bank settlement, defying growing international protests",
       "summary": "Thirty \"pioneer families\" have arrived on a wave of nationalism driven by Israel's government, but the rapid change has left nearby Palestinian residents fearful.",
       "content": "Thirty \"pioneer families\" have arrived on a wave of nationalism driven by Israel's government, but the rapid change has left nearby Palestinian residents fearful.",
       "region": "ヨーロッパ",
       "priority": "通常",
-      "time": "16時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "1967年",
@@ -1319,205 +1619,103 @@
       ]
     },
     {
-      "id": "wkxo04",
-      "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-      "summary": "At least 130 people, including 23 children, were also injured when the shopping centre was hit, according to the regional head.",
-      "content": "At least 130 people, including 23 children, were also injured when the shopping centre was hit, according to the regional head.",
-      "region": "ヨーロッパ",
+      "id": "780eju",
+      "title": "These bookshops let Chinese readers question their country - now the doors are closing",
+      "summary": "For some mainlanders, Hong Kong's independent bookstores are a window into a different, freer world.",
+      "content": "For some mainlanders, Hong Kong's independent bookstores are a window into a different, freer world.",
+      "region": "アジア",
       "priority": "通常",
-      "time": "1時間前",
+      "time": "22時間前",
       "relatedHistory": [
-        {
-          "year": "2014年",
-          "title": "クリミア危機",
-          "description": "ロシアによるクリミア半島の併合。国際的な制裁とウクライナとの関係悪化を招く。",
-          "significance": "ロシアのウクライナ侵攻の直接的なきっかけの一つ。安全保障環境の悪化。"
-        },
-        {
-          "year": "2022年2月",
-          "title": "ロシアによるウクライナ侵攻開始",
-          "description": "ロシア軍によるウクライナ全土への大規模侵攻。欧米諸国からの制裁が強化された。",
-          "significance": "紛争の直接的な原因。国際秩序への挑戦。"
-        },
-        {
-          "year": "2022年3月",
-          "title": "ブチャ虐殺事件",
-          "description": "ロシア軍によるブチャでの民間人虐殺疑惑が報道され、国際社会から非難を受けた。",
-          "significance": "戦争犯罪の可能性を示す事例。国際的な法的措置の検討。"
-        },
-        {
-          "year": "2022年5月",
-          "title": "キーウ動物園での虐殺事件",
-          "description": "ロシア軍がキーウ動物園を占拠し、動物を虐殺した事件が発生。",
-          "significance": "戦争における非人道的な行為の具体例。ロシア軍の行動原理を示す。"
-        },
-        {
-          "year": "2023年2月",
-          "title": "ハルキウへのロシアの攻撃",
-          "description": "ロシア軍がハルキウへの大規模な攻撃を行い、多数の民間人が死亡。",
-          "significance": "民間施設への攻撃の継続。人道危機を深刻化。"
-        }
-      ],
-      "tags": [
-        "テクノロジー"
-      ],
-      "link": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News World",
-      "historicalSummary": "ウクライナのショッピングモールへのロシアによるドローン攻撃は、2022年から続くロシアのウクライナ侵攻における悲劇的な一例である。この攻撃は多数の死傷者を引き起こし、ウクライナ国内の人道状況をさらに悪化させている。過去の同様の攻撃と同様に、民間施設への攻撃は国際法に違反する可能性があり、国際社会からの非難を招いている。2022年2月24日の侵攻開始以降、ロシア軍はウクライナ各地のインフラや都市を標的とし続けており、この攻撃はその一環として捉えられる。同様の事例は、イラクやシリアなど、過去の紛争においても確認されており、民間人への攻撃は戦争犯罪とみなされる場合がある。今回の攻撃は、紛争が長期化する中で、より多くの人道支援が必要となることを改めて示している。",
-      "threeLineSummary": [
-        "ロシアのドローン攻撃により、ウクライナのショッピングモールで15人が死亡。",
-        "ウクライナ国内での紛争激化と、ロシア軍による攻撃が背景にある。",
-        "人道危機を深刻化させ、国際社会における安全保障への懸念を高める可能性。"
-      ]
-    },
-    {
-      "id": "2ppxek",
-      "title": "Hong Kong's Tiananmen activists guilty in national security trial",
-      "summary": "Three activists were accused of inciting others to subvert state power under the China-introduced law.",
-      "content": "Three activists were accused of inciting others to subvert state power under the China-introduced law. ",
-      "region": "ヨーロッパ",
-      "priority": "通常",
-      "time": "15時間前",
-      "relatedHistory": [
-        {
-          "year": "1989年",
-          "title": "天安門事件",
-          "description": "学生主導の民主化を求める平和的なデモが、中国政府によって武力鎮圧された。多くの死傷者が出た。",
-          "significance": "香港の民主化運動への大きな影響を与え、自由と民主主義を求める市民精神の象徴。"
-        },
         {
           "year": "1997年",
-          "title": "香港の返還",
-          "description": "イギリスから中国へ返還。一国二制度の下で、一定の自治が保障されることが約束された。",
-          "significance": "自由な社会と法制度を維持することを目的とした、香港の政治的・経済的状況の基盤。"
+          "title": "香港返還",
+          "description": "イギリスから中国への主権返還。一国二制度に基づく自治が約束された。",
+          "significance": "香港の自由と自治の基盤。政治・文化的な独立の象徴。"
         },
         {
           "year": "2003年",
-          "title": "香港マカオ国境封鎖デモ",
-          "description": "中国政府によるマカオへの影響力拡大に対する抗議として、大規模なデモが発生。",
-          "significance": "香港市民の自由と自治に対する意識の高まりを示す出来事。"
+          "title": "愛国教育法制定",
+          "description": "香港の教育制度に愛国心教育を導入。自由な思想を制限する動き。",
+          "significance": "言論統制の強化。書店の閉鎖につながる圧力の一端。"
+        },
+        {
+          "year": "2009年",
+          "title": "香港政府のメディア規制強化",
+          "description": "メディアに対する政府の介入が増加。報道の自由が制限される。",
+          "significance": "情報統制の強化。書店の運営環境が悪化。"
         },
         {
           "year": "2014年",
           "title": "雨傘運動",
-          "description": "中国政府による政治的介入への抗議として、大規模な平和的デモが発生。",
-          "significance": "香港市民の民主化を求める強い意志を示す出来事であり、国家安全保障法導入の直接的なきっかけとなった。"
+          "description": "民主化を求める大規模な抗議活動。政府への批判が高まった。",
+          "significance": "自由と民主主義を求める市民の意思表示。中国政府の圧力を招く。"
         },
         {
           "year": "2020年",
-          "title": "香港国家安全保障法の施行",
-          "description": "中国政府が香港に国家安全保障法を導入。言論統制や政治活動の制限が強化された。",
-          "significance": "香港の自由と民主主義を大きく制限し、国際社会からの批判を招いている。"
+          "title": "香港国家安全法成立",
+          "description": "国家安全を名目に、言論の自由や集会の自由を制限する法律。",
+          "significance": "香港の自由と自治の根幹を揺るがす。書店の閉鎖を加速させる。"
         }
       ],
       "tags": [],
-      "link": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News World",
-      "historicalSummary": "香港における天安門民主化運動支持者への有罪判決は、中国政府による言論統制の強化と、香港の自由と民主主義の抑圧を象徴する出来事である。1989年の天安門事件は、中国における民主化を求める市民運動の象徴であり、その流れは香港にも影響を与えてきた。国家安全保障法は、香港の自由な社会を大きく変え、政治的な反対意見を抑圧するための道具として利用されている。今回の判決は、国際社会からの批判を招き、中国の国際的な評判を損なう可能性がある。過去の同様事例と比較すると、ソ連における言論統制や、現在のベトナムにおける政治的弾圧などが挙げられる。これらの歴史的事例は、権力による自由の抑圧が繰り返されてきたことを示唆している。",
+      "link": "https://www.bbc.co.uk/news/articles/cj0338l6yg4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News Asia",
+      "historicalSummary": "香港の独立系書店は、中国本土における検閲の厳しい状況下で、多様な情報や異なる視点へのアクセスを提供することで、多くの人々にとって重要な役割を果たしてきました。これらの書店は、政治的な書籍や文化的な作品を扱い、中国本土では入手困難な情報源として機能していました。しかし近年、中国政府による圧力や経済的な理由から、多くの書店が閉鎖を余儀なくされています。これは、香港の自由の縮小と中国の影響力の拡大を示す出来事であり、過去の歴史的背景と合わせて考察する必要があります。特に、1997年の香港返還以降、中国本土との関係が複雑化し、自由と自治を巡る緊張が高まっていることを考慮すると、これらの書店の閉鎖はより深刻な問題として捉えられます。このような状況は、情報統制や言論の自由の重要性を改めて浮き彫りにするものです。",
       "threeLineSummary": [
-        "香港の天安門民主化運動支持者が国家安全保障法違反で有罪判決を受けた。",
-        "中国政府は、香港における民主化運動を抑圧するため、国家安全保障法を導入し、言論統制を強化している。",
-        "今回の判決は、中国の政治体制と自由に対する制限、そして国際社会からの批判を再燃させる可能性がある。"
+        "香港の書店は、中国本土の人々にとって自由な世界への窓口だった。",
+        "中国本土では検閲が厳しく、香港の書店は多様な情報へのアクセスを提供していたため、政治的・文化的な意義を持っていた。",
+        "これらの書店が閉鎖されることは、香港の自由の縮小と中国の影響力の拡大を示すものとなる。"
       ]
     },
     {
-      "id": "guzeph",
-      "title": "Tupac murder accused told police in 2008 his nephew fired fatal shots",
-      "summary": "A recording of the interview Duane Davis conducted with detectives was played to the jury.",
-      "content": "A recording of the interview Duane Davis conducted with detectives was played to the jury.",
-      "region": "ヨーロッパ",
+      "id": "mnb4g7",
+      "title": "Modi spent years building his strong image - why is he making Gen Z reels now?",
+      "summary": "Narendra Modi's new, more casual online persona is drawing attention from young Indians - but also plenty of scepticism.",
+      "content": "Narendra Modi's new, more casual online persona is drawing attention from young Indians - but also plenty of scepticism.",
+      "region": "アジア",
       "priority": "通常",
-      "time": "2時間前",
+      "time": "22時間前",
       "relatedHistory": [
         {
-          "year": "1996年",
-          "title": "Tupac Shakur Assassination",
-          "description": "ヒップホップアイコン、トゥパック・シャクールがラスベガスで射殺される。犯人は未だ特定されていない。",
-          "significance": "事件の直接的な背景。音楽業界に大きな衝撃を与え、社会問題への関心を喚起。"
-        },
-        {
-          "year": "1980年代",
-          "title": "Crack Cocaine Epidemic",
-          "description": "アメリカでクラックコカインが蔓延し、都市部の貧困層に深刻な影響を与える。ギャング抗争の激化を招く。",
-          "significance": "トゥパックの生い立ちや背景にある社会問題の根源。暴力と貧困の連鎖を示唆。"
-        },
-        {
-          "year": "1990年代初頭",
-          "title": "Gang Wars in California",
-          "description": "カリフォルニア州を中心に、複数のギャング間の抗争が激化。トゥパックもその影響を受ける。",
-          "significance": "事件の直接的な原因の一つ。トゥパックと甥の関係に影響を与えた可能性。"
-        },
-        {
-          "year": "2000年",
-          "title": "Rise of Hip Hop as a Cultural Force",
-          "description": "ヒップホップが音楽だけでなく、ファッションやアートなど、幅広い文化として浸透する。",
-          "significance": "トゥパックの遺産と影響力の拡大。彼の死は、ヒップホップ文化全体に大きな影響を与えた。"
+          "year": "2020年",
+          "title": "インドのデジタル経済の成長",
+          "description": "インドのインターネット普及率とスマートフォン利用が急増。オンラインコンテンツ消費が拡大し、ソーシャルメディアの影響力が増大。",
+          "significance": "若年層への情報伝達手段の変化。モディ首相のオンライン戦略の背景。"
         },
         {
           "year": "2021年",
-          "title": "Continued Gun Violence in the US",
-          "description": "アメリカでは依然として銃暴力が多発し、社会問題として深刻化している。",
-          "significance": "トゥパック事件の背景にある社会問題の継続性。現代社会における暴力の問題を再認識させる。"
-        }
-      ],
-      "tags": [],
-      "link": "https://www.bbc.co.uk/news/articles/cly57kzgr0ko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News World",
-      "historicalSummary": "2008年にDuane Davis（通称：Keffe D）が警察へのインタビューで、トゥパック・シャクール射殺事件における自身の甥の関与を告白したというニュースです。トゥパックは1996年に射殺され、その死はヒップホップ界に大きな衝撃を与え、ギャング抗争や音楽業界の暴力といった複雑な問題を浮き彫りにしました。この事件は、世代間の暴力の連鎖や、成功者の影に潜む危険性を示す事例として歴史的に重要な意味を持ちます。また、当時の社会背景における若者たちの葛藤や、貧困、差別といった問題とも深く関連しています。類似事例としては、1920年代の禁酒法時代におけるギャング抗争や、現代における都市部の銃暴力などが挙げられます。",
-      "threeLineSummary": [
-        "2008年のインタビューで、トゥパックの甥が決定的な射撃を行ったと告白。",
-        "トゥパックはヒップホップ界のアイコンであり、当時のギャング抗争が背景にある。",
-        "この事件は、音楽業界における暴力と世代間の影響を示す歴史的事例となる。"
-      ]
-    },
-    {
-      "id": "v8lk8t",
-      "title": "Germany investigates Russia links to weapons cache discovered in woods, reports say",
-      "summary": "German intelligence believes guns found last year were for carrying out assassinations on behalf of Moscow, reports say.",
-      "content": "German intelligence believes guns found last year were for carrying out assassinations on behalf of Moscow, reports say.",
-      "region": "ヨーロッパ",
-      "priority": "通常",
-      "time": "4時間前",
-      "relatedHistory": [
-        {
-          "year": "1962年",
-          "title": "キューバ危機",
-          "description": "ソ連がキューバに核ミサイルを配備したことで、米ソ間の核戦争の危機が発生。世界は核の脅威に直面。",
-          "significance": "冷戦時代の核戦争の危険性を示す。現代の地政学的リスクと比較できる。"
-        },
-        {
-          "year": "1989年",
-          "title": "ベルリンの壁崩壊",
-          "description": "東西ドイツの統一を象徴する出来事。冷戦終結への道を開き、東欧諸国の民主化を加速。",
-          "significance": "ソ連崩壊後の地政学的変化とロシアの影響力の低下を示す。"
-        },
-        {
-          "year": "1990年",
-          "title": "湾岸戦争",
-          "description": "サウジアラビアの石油を守るため、米多国籍軍がイラクを攻撃。国際社会における軍事介入の事例。",
-          "significance": "地域紛争と大国介入のリスクを示す。現代のウクライナ戦争との類似点がある。"
-        },
-        {
-          "year": "2008年",
-          "title": "グルジア紛争",
-          "description": "ロシアとグルジアの間で勃発した武力衝突。ロシアによるグルジアへの軍事介入は、地域における影響力を示す。",
-          "significance": "ロシアの近隣諸国への軍事的な干渉の歴史を反映。"
+          "title": "インドの若者層の政治的関心の低下",
+          "description": "選挙における若年層の投票率が低迷。政治への無関心や失望感が広がり、社会運動への参加も減少傾向。",
+          "significance": "モディ首相が若者層にアピールする必要性を認識した背景。"
         },
         {
           "year": "2022年",
-          "title": "ロシアによるウクライナ侵攻",
-          "description": "ロシアがウクライナに全面侵攻。ヨーロッパの安全保障体制を根本的に揺るがし、国際秩序に大きな影響を与えている。",
-          "significance": "現代におけるロシアの攻撃性と、ヨーロッパの安全保障環境の変化を示す。"
+          "title": "インドにおけるソーシャルメディアの政治利用の増加",
+          "description": "政党や政治家がSNSを活用して有権者とコミュニケーションを取る事例が増加。若年層へのリーチを重視する傾向が強まる。",
+          "significance": "モディ首相のReels活用は、このトレンドの一環。"
+        },
+        {
+          "year": "2023年",
+          "title": "インドの選挙における投票年齢の引き下げ議論",
+          "description": "若年層の政治参加を促すため、投票年齢を18歳から16歳へ引き下げる提案が議論される。若者層へのアピールが重要視されている。",
+          "significance": "モディ首相が若者層にアピールする背景にある社会的な動き。"
+        },
+        {
+          "year": "2023年",
+          "title": "インド政府によるデジタルインフラ投資の拡大",
+          "description": "地方部を含む全国的なインターネット接続の改善を目指し、政府が大規模なデジタルインフラ投資を実施。オンラインコンテンツの普及を促進。",
+          "significance": "Reelsのようなオンライン動画コンテンツの視聴環境整備。"
         }
       ],
       "tags": [],
-      "link": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News World",
-      "historicalSummary": "ドイツがロシアとの関連性を調査している武器の隠し場所の発見は、ヨーロッパの安全保障環境における深刻な問題を示唆しています。2023年に発見されたこれらの武器は、モスクワの指示のもとで暗殺に使用される可能性があり、これはロシア政府が他国への影響力行使のために秘密裏の活動を行っていることを示唆するものです。過去には、冷戦時代における東西対立や、ソ連による東欧諸国への介入など、ロシアの影響力拡大の歴史的事例が存在します。現代においても、ウクライナ戦争やエネルギー政策などを通じたロシアの行動は、ヨーロッパの安全保障に対する挑戦と見なされています。今回の事件は、これらの歴史的な背景を踏まえると、ロシアの潜在的な脅威を早期に察知し、対応する必要性を改めて認識させるものです。",
+      "link": "https://www.bbc.co.uk/news/articles/cnvn0n1nld6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News Asia",
+      "historicalSummary": "ナレンドラ・モディ首相が、若年層をターゲットにしたTikTokのような短い動画コンテンツ（Reels）に積極的に参加し、その親しみやすい姿をアピールしています。これは、インドにおける政治的風景の変化と深く関連しています。近年、特に若年層の政治への関心が薄れている一方、選挙での票獲得に向けて、従来の政治戦略とは異なる新しいアプローチを模索する動きと見られます。デジタルネイティブ世代が社会や政治に与える影響力が大きくなる中で、モディ首相はオンラインでの存在感を高めることで、彼らの支持を得ようとしていると考えられます。過去の選挙における若年層の投票率の低下や、SNSを通じた政治活動の活発化といった動きと比較すると、今回の行動はより積極的な試みと言えるでしょう。",
       "threeLineSummary": [
-        "ドイツ、森で発見された武器の隠し場所を巡りロシアとの関連性を調査中。",
-        "2023年に発見された武器は、モスクワの指示による暗殺に使用される可能性があったとみられている。",
-        "この事件は、ヨーロッパにおけるロシアの影響力拡大と安全保障上の懸念を浮き彫りにする可能性がある。"
+        "モディ首相がGen Z向けのオンライン動画に登場。若者へのアピールと見られる。",
+        "インドの若者層の政治的関心の低下と、従来の政治戦略からの転換を背景にしている。",
+        "選挙での票獲得を目指す模索であり、デジタルネイティブ世代への影響が今後の政権運営を左右する可能性も。"
       ]
     },
     {
@@ -1527,7 +1725,7 @@
       "content": "Three activists were accused of inciting others to subvert state power under the China-introduced law. ",
       "region": "アジア",
       "priority": "通常",
-      "time": "15時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "1989年",
@@ -1577,7 +1775,7 @@
       "content": "Once banned from national airwaves, Nanda Malini was known for her songs about social justice.",
       "region": "アジア",
       "priority": "通常",
-      "time": "15時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "1983年",
@@ -1627,7 +1825,7 @@
       "content": "It comes as the court had earlier this week ordered that he had to be taken for a hospital examination. ",
       "region": "アジア",
       "priority": "通常",
-      "time": "10時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "1977年",
@@ -1674,53 +1872,53 @@
       ]
     },
     {
-      "id": "cpnprk",
-      "title": "Trump wants to be friends with Kim - but South Korea could pay the price",
-      "summary": "US military exercises with South Korea end early on Friday, at a time when the North is in a position of strength.",
-      "content": "US military exercises with South Korea end early on Friday, at a time when the North is in a position of strength. ",
+      "id": "j9z84r",
+      "title": "Robot horse and rider steal the spotlight at Chinese conference",
+      "summary": "More than 300 companies are showcasing the latest advances in robotics at the five-day event in Beijing, China, organisers say.",
+      "content": "More than 300 companies are showcasing the latest advances in robotics at the five-day event in Beijing, China, organisers say.",
       "region": "アジア",
       "priority": "通常",
-      "time": "23時間前",
+      "time": "11時間前",
       "relatedHistory": [
         {
-          "year": "1994年",
-          "title": "朝鮮半島の軍事休戦協定締結",
-          "description": "朝鮮戦争終結後の停戦合意。全面的な平和条約は締結されていない。",
-          "significance": "北朝鮮の軍事力増強と、国際社会との関係構築の基盤。"
+          "year": "1980年",
+          "title": "改革開放政策の開始",
+          "description": "鄧小平指導の下、中国は市場経済に踏み出す政策を開始。経済成長の原動力となる。",
+          "significance": "技術開発への投資基盤を築き、ロボティクス技術発展の土壌を形成。"
         },
         {
-          "year": "2000年",
-          "title": "南北首脳会談（金大中大統領と金正日総書記）",
-          "description": "初の南北首脳会談。対話のきっかけとなるも、その後は停滞。",
-          "significance": "南北関係改善への模索の歴史的試み。"
+          "year": "2006年",
+          "title": "中国、シャープに知的財産権訴訟",
+          "description": "日本企業に対する知的財産権侵害訴訟は、中国の技術力向上と国際競争意識の表れ。",
+          "significance": "自国技術の保護意識が高まり、国産技術開発への投資を促進。"
         },
         {
-          "year": "2018年",
-          "title": "シンガポール首脳会談（トランプ氏と金正恩氏）",
-          "description": "米朝首脳会談。非核化交渉の進展に期待が寄せられるも、その後は停滞。",
-          "significance": "米朝関係改善の象徴的な出来事。"
+          "year": "2015年",
+          "title": "「メイド・イン・チャイナ」から「インテリジェント・メイド・イン・チャイナ」へ",
+          "description": "中国政府は、製造業の高度化と技術革新を重視する政策を打ち出す。",
+          "significance": "ロボットを含む先進技術への投資を促進し、産業構造の転換を図る。"
         },
         {
-          "year": "2022年",
-          "title": "北朝鮮による大規模なミサイル発射",
-          "description": "国際連合の制裁に違反する形で、弾道ミサイルやICBMの発射実験が繰り返される。",
-          "significance": "北朝鮮の軍事力増強と、国際社会への挑戦を示す。"
+          "year": "2021年",
+          "title": "中国、新たな国家発展戦略を発表",
+          "description": "技術自立を重視する政策が強化され、AIとロボット開発への投資が加速。",
+          "significance": "ロボティクス技術の国産化を目指し、国際競争力を高める。"
         },
         {
           "year": "2023年",
-          "title": "米韓合同軍事演習の実施",
-          "description": "北朝鮮の挑発行為に対する抑止力強化を目的とした大規模な軍事演習が実施された。",
-          "significance": "北朝鮮との緊張関係を反映し、地域安全保障への影響を示す。"
+          "title": "中国、ロボット産業における規制緩和",
+          "description": "政府はロボット産業の発展を支援するため、規制を緩和し、投資を促進。",
+          "significance": "ロボット技術の普及と社会実装を加速させる。"
         }
       ],
       "tags": [],
-      "link": "https://www.bbc.co.uk/news/articles/c4gj1vje8dxo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/videos/c0qvqzzdd02o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News Asia",
-      "historicalSummary": "トランプ氏が金正恩氏との関係改善を試みる動きは、朝鮮半島の地政学的な状況を複雑化させる可能性があります。近年、北朝鮮は核・ミサイル開発を活発化させ、国際社会からの制裁を回避しつつ、その技術力を高めています。米韓合同軍事演習の終了は、北朝鮮に対する抑止力低下と見られ、両国の関係に新たな緊張をもたらす恐れがあります。過去の米朝交渉の失敗例を踏まえると、この動きが具体的な成果に結びつく可能性は低いと考えられますが、地域におけるパワーバランスの変化を予感させる出来事として注目に値します。特に、中国や日本といった周辺国の立場も考慮に入れる必要があり、今後の動向によっては朝鮮半島情勢全体への影響が拡大する可能性があります。",
+      "historicalSummary": "中国の北京で開催された国際的な展示会で、高度な技術を持つロボット馬と騎手が注目を集めました。これは、中国が近年力を注いでいるロボティクス技術の進歩を象徴する出来事です。中国は国家戦略としてAIとロボットの開発を推進しており、経済成長の重要な柱と位置づけています。過去には、産業構造の転換や労働力不足の解消策としてロボット導入が進められてきました。今回の展示会は、単なる技術展示ではなく、未来社会における人間とロボットの共存の可能性を示唆するものであり、国際的な競争激化を背景に、各国のロボティクス技術開発が加速している現状を反映しています。特に近年では、新型コロナウイルス感染症のパンデミックによるサプライチェーンの脆弱性が露呈し、国内生産の重要性が再認識される中、ロボット技術を活用した自動化・省人化の動きが活発化しています。",
       "threeLineSummary": [
-        "トランプ氏は金正恩氏との友好関係を模索するが、韓国が影響を受ける可能性。",
-        "北朝鮮の勢力増大と米韓軍事演習の終了が背景にある。",
-        "米朝関係改善は不安定であり、地域勢力均衡に影響を与える可能性がある。"
+        "中国・北京で開催された展示会で、ロボット馬と騎手が注目を集めた。",
+        "中国は近年、ロボティクス技術の開発に多大な投資を行い、技術革新を推進している。",
+        "この出来事は、AIとロボット技術の進化が社会に与える影響を象徴するものである。"
       ]
     },
     {
@@ -1730,7 +1928,7 @@
       "content": "Hui's sentencing marks a key moment in the fallout from Evergrande's collapse, which shook China's property sector.",
       "region": "アジア",
       "priority": "通常",
-      "time": "1日前",
+      "time": "2日前",
       "relatedHistory": [
         {
           "year": "2008年",
@@ -1774,169 +1972,13 @@
       ]
     },
     {
-      "id": "ewbzeb",
-      "title": "Australia 'outraged' after Israel decides not to open criminal investigation into killing of aid worker in Gaza",
-      "summary": "Australia's foreign minister summoned the Israeli ambassador over \"insulting\" Zomi Frankcom decision.",
-      "content": "Australia's foreign minister summoned the Israeli ambassador over \"insulting\" Zomi Frankcom decision.",
-      "region": "アジア",
-      "priority": "通常",
-      "time": "1日前",
-      "relatedHistory": [
-        {
-          "year": "1967年",
-          "title": "第三次中東戦争（六日間戦争）",
-          "description": "イスラエルがヨルダン川西岸、ガザ地区、シナイ半島を占領し、パレスチナ問題は深刻化。",
-          "significance": "ガザ地区における紛争の起源。地域支配権確立の背景。"
-        },
-        {
-          "year": "2005年",
-          "title": "イスラエルによるガザ地区からの撤退",
-          "description": "イスラエルがガザ地区から軍と入植者を撤退させるが、封鎖は継続。パレスチナ自治政府が実効支配。",
-          "significance": "ガザ地区の状況を複雑化させ、人道危機を引き起こす要因の一つ。"
-        },
-        {
-          "year": "2006年",
-          "title": "ガザ地区におけるハマスの勝利",
-          "description": "ハマスがパレスチナ選挙で勝利し、ガザ地区を実効支配。イスラエルとの武力衝突が頻発。",
-          "significance": "ガザ地区の政治状況に大きな影響を与え、紛争の激化を招く。"
-        },
-        {
-          "year": "2014年",
-          "title": "ガザ地区におけるイスラエル・ハマス紛争",
-          "description": "イスラエルとハマスの間で大規模な武力衝突が発生。多数の死傷者と人道危機を引き起こす。",
-          "significance": "国際社会における人道支援の必要性を改めて浮き彫りにする。"
-        },
-        {
-          "year": "2021年",
-          "title": "イスラエル・ハマス紛争（第1回）",
-          "description": "ハマスのロケット弾攻撃とイスラエルのガザ地区への空爆により紛争が発生。国際的な人道支援の要請が強まる。",
-          "significance": "最新の紛争事例。人道支援の安全確保問題の再燃を招く。"
-        }
-      ],
-      "tags": [
-        "テクノロジー"
-      ],
-      "link": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News Asia",
-      "historicalSummary": "イスラエルがガザ地区で起きた支援者の殺害事件の捜査を開始しないという決定は、国際社会、特にオーストラリアで強い非難を浴びています。この事件は、紛争下における人道支援の安全確保の難しさ、そしてイスラエルと国際社会との関係における緊張を浮き彫りにしています。過去には、同様の人道危機において、国際的な捜査や調査が求められるケースが多数存在し、今回の決定は、国際法遵守に対するイスラエルの姿勢への疑念を高めるものです。また、ガザ地区の状況改善に向けた外交的努力の停滞を象徴する出来事として、今後の国際社会の対応が注目されます。過去の事例と比較すると、国際的な圧力や制裁によって捜査開始を促すケースもあり、今回の決定がどのような影響を与えるかは不透明です。",
-      "threeLineSummary": [
-        "イスラエルがガザ地区の支援者殺害事件の捜査を開始しない決定に対し、オーストラリアは非難声明を発表。",
-        "この決定は、紛争解決への取り組みを疑問視する国際的な反発を招き、人道支援の安全確保に対する懸念を増幅させている。",
-        "イスラエルと国際社会との関係悪化、およびガザ地区における人道状況改善に向けた外交的努力の停滞を示唆している。"
-      ]
-    },
-    {
-      "id": "y8sru8",
-      "title": "Four workers dead after being hit by train in Japan",
-      "summary": "The train collided with the four men at Shin-Kanuma Station, north of Tokyo, authorities say.",
-      "content": "The train collided with the four men at Shin-Kanuma Station, north of Tokyo, authorities say.",
-      "region": "アジア",
-      "priority": "通常",
-      "time": "1日前",
-      "relatedHistory": [
-        {
-          "year": "1910年",
-          "title": "大正時代初期の鉄道事故",
-          "description": "日本の鉄道網が発展する中で、労働災害や事故が頻発。安全対策の遅れが問題視された。",
-          "significance": "初期の労働安全問題の背景。現代の事故防止対策の原点。"
-        },
-        {
-          "year": "1960年代",
-          "title": "高度経済成長期の労働環境",
-          "description": "経済成長を優先するあまり、労働時間や安全管理が軽視され、労働災害が増加した。",
-          "significance": "過労死や事故多発の背景。現代の長時間労働問題と類似点あり。"
-        },
-        {
-          "year": "1970年代",
-          "title": "労働安全法の制定",
-          "description": "労働者の安全と健康を確保するための法律が制定され、安全対策が強化された。",
-          "significance": "労働安全意識の高まり。今回の事故後も法規制の見直しが必要となる可能性。"
-        },
-        {
-          "year": "2011年",
-          "title": "東日本大震災と福島第一原子力発電所事故",
-          "description": "大規模災害によるインフラ被害が表面化。鉄道網の脆弱性や安全対策の重要性が再認識された。",
-          "significance": "インフラリスクへの意識向上。今回の事故も同様のリスクを内包。"
-        },
-        {
-          "year": "2023年",
-          "title": "鉄道事故の増加傾向",
-          "description": "近年、日本の鉄道事故がやや増加傾向にあるという報告があり、安全対策への再評価が必要とされている。",
-          "significance": "近年の鉄道安全に関する課題。今回の事故は、その傾向をさらに加速させる可能性。"
-        }
-      ],
-      "tags": [
-        "テクノロジー"
-      ],
-      "link": "https://www.bbc.co.uk/news/articles/c5yrnz24j22o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News Asia",
-      "historicalSummary": "日本の新幹線による労働者の死亡事故は、現代社会における労働安全の脆弱性を浮き彫りにする出来事である。特に、鉄道インフラの老朽化や過密なスケジュール、安全対策の不備などが複合的に影響している可能性がある。過去には、日本の高度経済成長期における労働環境の悪化や、事故防止への意識の欠如が問題視されていた。今回の事故は、過去の教訓を再確認し、労働者の安全確保と鉄道インフラの維持・改善を迫るものと言えるだろう。また、技術革新が進む現代においても、労働者の安全を最優先に考えることの重要性を改めて示している。",
-      "threeLineSummary": [
-        "日本の新幹線で、4人の作業員が列車に轢かれて死亡した。",
-        "事故は東京北部の新鎌沼駅付近で発生し、作業員が線路近くで作業中だった。",
-        "日本の労働安全対策の不備や、鉄道インフラの老朽化が背景にある可能性を示唆する。"
-      ]
-    },
-    {
-      "id": "shit09",
-      "title": "Alleged sexual assault by local official and businessman sparks outrage in China",
-      "summary": "Both men are arrested after the alleged assault on a woman at a karaoke bar during a business event.",
-      "content": "Both men are arrested after the alleged assault on a woman at a karaoke bar during a business event.",
-      "region": "アジア",
-      "priority": "通常",
-      "time": "2日前",
-      "relatedHistory": [
-        {
-          "year": "1976年",
-          "title": "文化大革命",
-          "description": "政治的混乱と社会秩序の崩壊。個人の権利が制限され、社会全体に大きな影響を与えた。",
-          "significance": "権力構造の脆弱性と法の不備を露呈。現代の事件との関連性。"
-        },
-        {
-          "year": "1989年",
-          "title": "天安門事件",
-          "description": "民主化を求める学生デモへの武力鎮圧。政府による言論統制が強化された。",
-          "significance": "法の支配の弱さと権力濫用の歴史的背景。現代の事件との関連性。"
-        },
-        {
-          "year": "2008年",
-          "title": "北京オリンピック開催",
-          "description": "経済成長を背景に国際的な地位を向上させた一方で、社会格差が拡大した。",
-          "significance": "経済発展と社会問題の矛盾。現代の事件との関連性。"
-        },
-        {
-          "year": "2021年",
-          "title": "中国における#MeToo運動の広がり",
-          "description": "性的ハラスメントや暴力の告発が活発化し、社会意識の変化を促した。",
-          "significance": "現代中国社会におけるジェンダー問題の顕在化。事件との関連性。"
-        },
-        {
-          "year": "2022年",
-          "title": "ゼロコロナ政策",
-          "description": "厳格なロックダウンにより経済活動が停滞し、社会不安が増大した。",
-          "significance": "政府の権力集中と市民の権利制限。現代の事件との関連性。"
-        }
-      ],
-      "tags": [
-        "経済"
-      ],
-      "link": "https://www.bbc.co.uk/news/articles/c1d1wgqqxp5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News Asia",
-      "historicalSummary": "中国で発生した公務員と実業者の性的暴行事件は、単なる個人の犯罪としてだけでなく、現代中国社会の構造的な問題点を浮き彫りにする出来事である。近年、中国では経済発展に伴い、社会格差の拡大や権力乱用、汚職といった問題が深刻化している。この事件は、そうした背景と関連し、公務員の権力と女性に対する脆弱性という構造的な問題を露呈させていると考えられる。また、事件に対する社会の強い反発は、法制度の不備やジェンダー不平等の根深さを反映しており、今後の法改正や社会意識の変化を促す可能性がある。過去の類似事例と比較すると、2022年の「#MeToo」運動が中国国内で広がり、同様の告発が増加していることにも通じる。政府は事件の厳正な調査を指示しているものの、透明性の確保と再発防止策の徹底が問われる。",
-      "threeLineSummary": [
-        "中国で、ビジネスイベント中にカラオケバーで女性に対する性的暴行の疑いがある事件が発生。",
-        "地方の公務員と実業者が関与し、社会に大きな衝撃を与え、政府は厳正な調査を指示。",
-        "汚職や権力乱用が背景にある可能性があり、中国社会におけるジェンダー不平等や法の不備が浮き彫りになる。"
-      ]
-    },
-    {
       "id": "ouviwh",
       "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime",
       "summary": "US Treasury Secretary Scott Bessent  says allies will need to decide whether they \"are with us or against us\".",
       "content": "US Treasury Secretary Scott Bessent  says allies will need to decide whether they \"are with us or against us\".",
       "region": "中東",
       "priority": "通常",
-      "time": "1日前",
+      "time": "2日前",
       "relatedHistory": [
         {
           "year": "1979年",
@@ -1988,7 +2030,7 @@
       "content": "European countries and Canada pile on pressure over Israel's plans to expand settlements in a strategically vital part of the occupied West Bank.",
       "region": "中東",
       "priority": "通常",
-      "time": "1日前",
+      "time": "2日前",
       "relatedHistory": [
         {
           "year": "1967年",
@@ -2032,13 +2074,65 @@
       ]
     },
     {
+      "id": "7ezd45",
+      "title": "Australia 'outraged' after Israel decides not to open criminal investigation into killing of aid worker in Gaza",
+      "summary": "Australia's foreign minister summoned the Israeli ambassador over \"insulting\" Zomi Frankcom decision.",
+      "content": "Australia's foreign minister summoned the Israeli ambassador over \"insulting\" Zomi Frankcom decision.",
+      "region": "中東",
+      "priority": "通常",
+      "time": "2日前",
+      "relatedHistory": [
+        {
+          "year": "1967年",
+          "title": "第三次中東戦争（六日間戦争）",
+          "description": "イスラエルがヨルダン川西岸、ガザ地区、シナイ半島を占領し、パレスチナ問題は深刻化。",
+          "significance": "ガザ地区における紛争の起源。地域支配権確立の背景。"
+        },
+        {
+          "year": "2005年",
+          "title": "イスラエルによるガザ地区からの撤退",
+          "description": "イスラエルがガザ地区から軍と入植者を撤退させるが、封鎖は継続。パレスチナ自治政府が実効支配。",
+          "significance": "ガザ地区の状況を複雑化させ、人道危機を引き起こす要因の一つ。"
+        },
+        {
+          "year": "2006年",
+          "title": "ガザ地区におけるハマスの勝利",
+          "description": "ハマスがパレスチナ選挙で勝利し、ガザ地区を実効支配。イスラエルとの武力衝突が頻発。",
+          "significance": "ガザ地区の政治状況に大きな影響を与え、紛争の激化を招く。"
+        },
+        {
+          "year": "2014年",
+          "title": "ガザ地区におけるイスラエル・ハマス紛争",
+          "description": "イスラエルとハマスの間で大規模な武力衝突が発生。多数の死傷者と人道危機を引き起こす。",
+          "significance": "国際社会における人道支援の必要性を改めて浮き彫りにする。"
+        },
+        {
+          "year": "2021年",
+          "title": "イスラエル・ハマス紛争（第1回）",
+          "description": "ハマスのロケット弾攻撃とイスラエルのガザ地区への空爆により紛争が発生。国際的な人道支援の要請が強まる。",
+          "significance": "最新の紛争事例。人道支援の安全確保問題の再燃を招く。"
+        }
+      ],
+      "tags": [
+        "テクノロジー"
+      ],
+      "link": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News Middle East",
+      "historicalSummary": "イスラエルがガザ地区で起きた支援者の殺害事件の捜査を開始しないという決定は、国際社会、特にオーストラリアで強い非難を浴びています。この事件は、紛争下における人道支援の安全確保の難しさ、そしてイスラエルと国際社会との関係における緊張を浮き彫りにしています。過去には、同様の人道危機において、国際的な捜査や調査が求められるケースが多数存在し、今回の決定は、国際法遵守に対するイスラエルの姿勢への疑念を高めるものです。また、ガザ地区の状況改善に向けた外交的努力の停滞を象徴する出来事として、今後の国際社会の対応が注目されます。過去の事例と比較すると、国際的な圧力や制裁によって捜査開始を促すケースもあり、今回の決定がどのような影響を与えるかは不透明です。",
+      "threeLineSummary": [
+        "イスラエルがガザ地区の支援者殺害事件の捜査を開始しない決定に対し、オーストラリアは非難声明を発表。",
+        "この決定は、紛争解決への取り組みを疑問視する国際的な反発を招き、人道支援の安全確保に対する懸念を増幅させている。",
+        "イスラエルと国際社会との関係悪化、およびガザ地区における人道状況改善に向けた外交的努力の停滞を示唆している。"
+      ]
+    },
+    {
       "id": "3bq186",
       "title": "Multiple deadly Israeli strikes in Gaza in under 24 hours",
       "summary": "BBC Verify looks at footage from two deadly strikes in under 24 hours in Gaza.",
       "content": "BBC Verify looks at footage from two deadly strikes in under 24 hours in Gaza.",
       "region": "中東",
       "priority": "通常",
-      "time": "2日前",
+      "time": "3日前",
       "relatedHistory": [
         {
           "year": "1948年",
@@ -2088,7 +2182,7 @@
       "content": "Donald Trump's Middle East envoy and son-in-law, Jared Kushner, is seeking to gain Israeli backing for the US-backed Gaza peace plan.",
       "region": "中東",
       "priority": "通常",
-      "time": "4日前",
+      "time": "5日前",
       "relatedHistory": [
         {
           "year": "1948年",
@@ -2140,7 +2234,7 @@
       "content": "The overloaded boat was taking people, including many children, to farms to harvest rice.",
       "region": "アフリカ",
       "priority": "通常",
-      "time": "10時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "2021年",
@@ -2190,7 +2284,7 @@
       "content": "An eagerly anticipated gathering of women will not be taking place following recent aerial strikes.",
       "region": "アフリカ",
       "priority": "通常",
-      "time": "4時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "2020年",
@@ -2242,7 +2336,7 @@
       "content": "The overnight raid of the multi-million dollar drug operation took place near the border with Zimbabwe.",
       "region": "アフリカ",
       "priority": "通常",
-      "time": "9時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "1986年",
@@ -2292,7 +2386,7 @@
       "content": "Officials had faced charges over the appointment of a civilian to a top post within crime intelligence.",
       "region": "アフリカ",
       "priority": "通常",
-      "time": "6時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "1994年",
@@ -2344,7 +2438,7 @@
       "content": "Described as a calm character, Promise Okoro's goat loves fried rice and has become celebrated locally.",
       "region": "アフリカ",
       "priority": "通常",
-      "time": "3日前",
+      "time": "4日前",
       "relatedHistory": [
         {
           "year": "1960年",
@@ -2394,7 +2488,7 @@
       "content": "Ghana has become Africa's leading voice in telling the world that Western nations owe reparations",
       "region": "アフリカ",
       "priority": "通常",
-      "time": "4日前",
+      "time": "5日前",
       "relatedHistory": [
         {
           "year": "1776年",
@@ -2438,65 +2532,115 @@
       ]
     },
     {
-      "id": "vspo4z",
-      "title": "Canada 'should fight' as US trade deadline looms, Manitoba premier says",
-      "summary": "Premier Wab Kinew's comments signal a tough battle for Prime Minister Mark Carney to get buy-in from Canadians on a possible trade deal with the US.",
-      "content": "Premier Wab Kinew's comments signal a tough battle for Prime Minister Mark Carney to get buy-in from Canadians on a possible trade deal with the US.",
+      "id": "8m3s6s",
+      "title": "Laptop catches fire on US flight, with passenger treated at airport",
+      "summary": "The pilot had reported a \"cabin fire in the back\" of American Airlines Flight 2398, which landed safely.",
+      "content": "The pilot had reported a \"cabin fire in the back\" of American Airlines Flight 2398, which landed safely.",
       "region": "アメリカ",
       "priority": "通常",
-      "time": "5時間前",
+      "time": "10時間前",
       "relatedHistory": [
         {
-          "year": "1988年",
-          "title": "カナダ・アメリカ自由貿易協定（CLTEA）締結",
-          "description": "両国間の貿易障壁を段階的に撤廃し、経済統合を促進。資源貿易が拡大。",
-          "significance": "現在の交渉の基礎となる。貿易関係深化の歴史。"
+          "year": "1978年",
+          "title": "パンアメリカン航空103便爆破事件",
+          "description": "ハイジャックされ爆破された。多数の死傷者を出したテロ事件で、航空保安体制の強化を促した。",
+          "significance": "テロ対策の重要性を認識させ、航空機のセキュリティ対策に影響。"
         },
         {
-          "year": "1994年",
-          "title": "北米自由貿易協定（NAFTA）締結",
-          "description": "カナダ、米国、メキシコの自由貿易協定。地域経済統合を加速。",
-          "significance": "USMCAへの道筋。地域経済の相互依存関係確立。"
+          "year": "1985年",
+          "title": "日本航空123便墜落事故",
+          "description": "圧力喪失により墜落。日本の航空史における最大規模の事故であり、安全性への意識を高めた。",
+          "significance": "航空機の構造安全性と整備の重要性を再認識させる。"
+        },
+        {
+          "year": "2001年",
+          "title": "9.11同時多発テロ事件",
+          "description": "アメリカ同時多発テロ。航空セキュリティが大幅に強化され、手荷物検査などが厳格化された。",
+          "significance": "航空セキュリティの強化とテロ対策の必要性を世界的に認識させた。"
         },
         {
           "year": "2018年",
-          "title": "USMCA（米国・メキシコ・カナダ協定）締結",
-          "description": "NAFTAを改定し、労働、環境、知的財産などの分野で新たなルールを導入。",
-          "significance": "現在の貿易関係の枠組み。交渉の出発点。"
+          "title": "ボイング737 MAX相次ぐ墜落事故",
+          "description": "MCASシステムの欠陥が原因で2機の墜落事故が発生。航空機の安全性と設計の信頼性への疑問を投げかけた。",
+          "significance": "航空機設計の安全性と安全規制の重要性を改めて認識させた。"
         },
         {
-          "year": "2021年",
-          "title": "サプライチェーン問題の深刻化",
-          "description": "新型コロナウイルス感染症の影響で、世界的なサプライチェーンが混乱し、国内産業への影響が懸念。",
-          "significance": "貿易政策の重要性を再認識。国内産業保護の議論活発化。"
-        },
-        {
-          "year": "2022年",
-          "title": "米国のインフレと金融引き締め",
-          "description": "米国でインフレが加速し、FRBが利上げを実施。世界経済への影響懸念。",
-          "significance": "米国の経済状況がカナダ経済に直接影響。貿易交渉の背景要因。"
+          "year": "2023年",
+          "title": "中国東方航空5735便墜落事故",
+          "description": "機体構造の欠陥が原因で墜落。航空機の安全性に対する国際的な懸念を再燃させた。",
+          "significance": "航空機の安全性と品質管理の重要性を強調する。"
         }
       ],
       "tags": [
-        "経済"
+        "テクノロジー"
       ],
-      "link": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/ce979zpjj85o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News US & Canada",
-      "historicalSummary": "カナダのマニトバ州首相の発言は、米との新たな貿易協定締結に向けたカナダ政府の苦戦を示唆しています。過去の米カナダ間の貿易交渉では、資源価格、環境規制、安全保障など、様々な問題で意見の対立が生じてきました。特に、北米自由貿易協定（NAFTA）の再交渉や、その後のUSMCA（米国・メキシコ・カナダ協定）締結の過程では、カナダ国内の産業界や労働組合からの懸念が強く、政権は国民の支持を得るために慎重な姿勢を保つ必要がありました。今回の貿易交渉も同様に、カナダ経済への影響や主権とのバランスが問われるため、政府は国民の理解と協力を得るための外交努力を続けると考えられます。歴史的には、米カナダ間の貿易関係は非常に重要であり、両国の経済成長に大きく貢献してきました。しかし、近年では保護主義的な政策やサプライチェーンの混乱など、新たな課題も生じており、今回の交渉はそのような変化に対応するための試みと言えるでしょう。",
+      "historicalSummary": "アメリカ航空2398便での機内火災は、現代社会におけるテクノロジー依存のリスクを浮き彫りにする出来事である。ノートパソコンが発火源となった可能性は、過去の事例にも通じるものであり、航空機の安全性に対する継続的な注意喚起となる。特に、電子機器の安全性基準や、緊急時の対応プロトコルの見直しは重要な課題と言えるだろう。20世紀以降、航空技術は飛躍的に進歩したが、同時に新たなリスクも生まれている。過去の機内火災事故を教訓に、テクノロジーと安全性の両立を目指す必要がある。",
       "threeLineSummary": [
-        "カナダのマニトバ州首相は、米との貿易交渉で強硬姿勢を維持すべきと主張。",
-        "米国の貿易期限が迫る中、カナダ国内の意見が分かれており、政権は国民の支持を得る必要に迫られている。",
-        "今回の貿易交渉は、カナダの経済主権と米国との関係に長期的な影響を与える可能性がある。"
+        "アメリカ航空2398便で機内火災が発生、安全な着陸。",
+        "ノートパソコンが原因と見られ、航空機の安全性への懸念を再燃。",
+        "過去の機内火災事例と照らし合わせ、安全対策の見直しが必要となる可能性。"
+      ]
+    },
+    {
+      "id": "g1cbkd",
+      "title": "US rapper BigXthaPlug arrested on drug and gun charges",
+      "summary": "The rapper, who has faced similar charges in the past, had been due to perform at the Country Rising Festival.",
+      "content": "The rapper, who has faced similar charges in the past, had been due to perform at the Country Rising Festival.",
+      "region": "アメリカ",
+      "priority": "通常",
+      "time": "9時間前",
+      "relatedHistory": [
+        {
+          "year": "1994年",
+          "title": "麻薬取締法（強化）",
+          "description": "アメリカ合衆国で麻薬の製造、販売、使用に対する刑罰を強化した法律。薬物犯罪の取り締まりに大きな影響を与えた。",
+          "significance": "現在の逮捕事件の法的根拠となる。"
+        },
+        {
+          "year": "2016年",
+          "title": "アメリカ合衆国における銃乱射事件増加",
+          "description": "アメリカ各地で大規模な銃乱射事件が頻発し、銃規制に対する議論が活発化した。社会の安全保障と銃規制の問題が顕在化。",
+          "significance": "逮捕された罪状の1つである銃器関連犯罪の背景となる。"
+        },
+        {
+          "year": "2020年",
+          "title": "ジョージ・フロイド殺害事件",
+          "description": "黒人男性ジョージ・フロイドの死亡をめぐる抗議運動が全国的に拡大。人種差別と警察暴力の問題が表面化した。",
+          "significance": "社会不安の高まりと犯罪への意識との関連性を示唆する。"
+        },
+        {
+          "year": "2021年",
+          "title": "アメリカ合衆国における薬物過剰摂取による死亡者数増加",
+          "description": "新型コロナウイルス感染症パンデミックの影響などにより、薬物過剰摂取による死亡者数が急増。薬物問題の深刻化が示された。",
+          "significance": "逮捕された薬物関連犯罪の背景となる社会問題。"
+        },
+        {
+          "year": "2023年",
+          "title": "アメリカにおける銃器関連の訴訟増加",
+          "description": "銃器メーカーに対する訴訟が相次ぎ、銃規制に関する法的闘いが激化。銃規制の必要性に対する社会的な議論が活発化。",
+          "significance": "銃器犯罪の背景にある法制度と社会構造を示唆する。"
+        }
+      ],
+      "tags": [],
+      "link": "https://www.bbc.co.uk/news/articles/cn4n4737n32o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News US & Canada",
+      "historicalSummary": "米国のラッパー、BigXthaPlugの逮捕は、アメリカ社会における薬物犯罪と銃規制という深刻な問題の一側面を反映しています。過去にも同様の罪で告発されていたことから、彼の犯罪歴が示唆されます。この事件は、エンターテイメント業界におけるアーティストの活動や、社会的な影響力を持つ人物が犯罪に巻き込まれるリスクを改めて浮き彫りにします。また、薬物と銃器の問題は、アメリカの社会構造や経済格差とも複雑に絡み合っており、単なる個人の問題として捉えることはできません。過去には、著名なミュージシャンやアスリートが同様の罪で逮捕される事例も存在し、社会全体への警鐘となります。",
+      "threeLineSummary": [
+        "米ラッパー、BigXthaPlugが薬物および銃器関連で逮捕された。",
+        "過去にも同様の罪で告発されており、Country Rising Festival出演予定だった。",
+        "アメリカにおける薬物犯罪と銃規制の問題を浮き彫りにする事件であり、アーティストへの影響も示唆する。"
       ]
     },
     {
       "id": "fcnc43",
       "title": "Supreme Court temporarily unfreezes Trump ballroom construction ",
-      "summary": "The temporary order will allow the $400m (£297m) to continue while the high court mulls a final decision on the case.",
-      "content": "The temporary order will allow the $400m (£297m) to continue while the high court mulls a final decision on the case. ",
+      "summary": "The temporary order will allow the $400m (£297m) project to continue while the high court mulls a final decision on the case.",
+      "content": "The temporary order will allow the $400m (£297m) project to continue while the high court mulls a final decision on the case. ",
       "region": "アメリカ",
       "priority": "通常",
-      "time": "14分前",
+      "time": "23時間前",
       "relatedHistory": [
         {
           "year": "2016年",
@@ -2540,258 +2684,106 @@
       ]
     },
     {
-      "id": "1hq3vu",
-      "title": "Watch: How does the US national debt affect consumers around the world?",
-      "summary": "The debt has more than doubled in a decade to reach a milestone $40tn (£29.4tn), Treasury figures show.",
-      "content": "The debt has more than doubled in a decade to reach a milestone $40tn (£29.4tn), Treasury figures show.",
+      "id": "jewc0t",
+      "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
+      "summary": "A new 50% levy on $20bn of Canadian imports comes into force after a last-minute breakdown in trade talks.",
+      "content": "A new 50% levy on $20bn of Canadian imports comes into force after a last-minute breakdown in trade talks.",
       "region": "アメリカ",
       "priority": "通常",
-      "time": "35分前",
+      "time": "8時間前",
       "relatedHistory": [
         {
-          "year": "1970年",
-          "title": "ウォール街のインフレ",
-          "description": "オイルショックなどの要因により、米国で高インフレが発生。連邦準備制度は金融引き締めを実施。",
-          "significance": "現在の債務問題の背景にある、政府支出とインフレの関係を示す。"
+          "year": "2018年",
+          "title": "米中貿易戦争の開始",
+          "description": "米国が中国に対して関税を課し、世界経済に大きな影響を与えた。サプライチェーンの見直しを促す要因となった。",
+          "significance": "保護主義的政策の広がりを示す。カナダとの関係悪化にも間接影響。"
         },
         {
-          "year": "1980年",
-          "title": "レーガン政権の規制緩和",
-          "description": "レーガン大統領は規制緩和政策を推進し、経済成長を目指す。財政赤字が増大。",
-          "significance": "高債務化の加速と、その後の長期的な影響。"
-        },
-        {
-          "year": "1990年",
-          "title": "湾岸戦争と次世代自動車税",
-          "description": "湾岸戦争への参戦と、次世代自動車税の導入により財政赤字が増大。",
-          "significance": "戦争や社会保障制度改革が債務に与える影響。"
-        },
-        {
-          "year": "2008年",
-          "title": "リーマン・ショック",
-          "description": "金融危機が発生し、政府は景気刺激策として大規模な財政出動を実施。国債残高が急増。",
-          "significance": "金融危機と政府対応が債務増加の大きな要因となった。"
+          "year": "2019年",
+          "title": "USMCA（米国・メキシコ・カナダ協定）の締結",
+          "description": "NAFTAを置き換える新たな自由貿易協定が締結された。しかし、一部の懸念事項は残った。",
+          "significance": "北米経済の枠組み変更。関税問題の解決策を探る試み。"
         },
         {
           "year": "2021年",
-          "title": "アメリカのコロナウイルス経済対策法（CARES Act）",
-          "description": "新型コロナウイルス感染症のパンデミックに対応するため、大規模な財政支援策が実施され、国債残高が増大。",
-          "significance": "パンデミック対応による政府支出が債務に与えた影響を示す。"
-        }
-      ],
-      "tags": [],
-      "link": "https://www.bbc.co.uk/news/videos/c4gjn4ezljno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News US & Canada",
-      "historicalSummary": "米国の国債残高が40兆ドルを超えたことは、アメリカ経済と世界経済の両方にとって重要な出来事です。この高水準の債務は、金利上昇やインフレを招き、消費者の購買力を圧迫する可能性があります。また、財政赤字の拡大は将来的な政府支出の制約となり、社会保障やインフラ投資などの分野で政策の選択肢を狭める可能性があります。過去の類似事例と比較すると、第二次世界大戦後の米国は比較的低い債務水準を維持していましたが、近年は政治的な対立や経済的なショックにより債務が増加傾向にあります。この高債務が世界経済に与える影響は、今後の金融政策や国際貿易交渉において重要な考慮事項となるでしょう。",
-      "threeLineSummary": [
-        "米国の国債が40兆ドルを超え、10年で倍増した。",
-        "財政赤字の拡大は金利上昇やインフレを引き起こし、世界経済に影響を与える。",
-        "高債務は将来的な財政制約を招き、国際金融市場の不安定化要因となる可能性がある。"
-      ]
-    },
-    {
-      "id": "xdg58p",
-      "title": "How Penn State students ran an alleged cocaine ring - until it all fell apart",
-      "summary": "As initiation, prospective fraternity members were made to package the drugs, say prosecutors.",
-      "content": "As initiation, prospective fraternity members were made to package the drugs, say prosecutors.",
-      "region": "アメリカ",
-      "priority": "通常",
-      "time": "6時間前",
-      "relatedHistory": [
-        {
-          "year": "1920年",
-          "title": "禁酒法",
-          "description": "アメリカで禁酒法が施行され、密造酒や闇酒取引が横行。組織犯罪の温床となる。",
-          "significance": "密売組織の歴史的萌芽。社会の規制と自由の矛盾。"
-        },
-        {
-          "year": "1960年代",
-          "title": "大学における学生運動",
-          "description": "公民権運動やベトナム戦争反対運動が活発化。フラタニティも政治的・社会的な議論に関与。",
-          "significance": "フラタニティの社会活動への関与。組織の役割の変化。"
-        },
-        {
-          "year": "1980年代",
-          "title": "コカインブーム",
-          "description": "アメリカでコカインの需要が急増し、密売組織が拡大。社会に深刻な影響を与える。",
-          "significance": "薬物密売組織の台頭。大学における薬物問題の深刻化。"
-        },
-        {
-          "year": "2001年",
-          "title": "9.11テロ",
-          "description": "同時多発テロ後、国家安全保障が重視されるようになり、監視体制が強化。大学もセキュリティ対策を強化。",
-          "significance": "社会の不安と規制強化。大学におけるリスク管理の重要性。"
-        },
-        {
-          "year": "2021年",
-          "title": "アメリカにおける薬物過剰摂取の増加",
-          "description": "オピオイド危機以降、薬物過剰摂取が急増し、医療システムに負担をかける。若年層への影響も懸念。",
-          "significance": "現代社会の薬物問題。大学における薬物対策の必要性の高まり。"
-        }
-      ],
-      "tags": [
-        "テクノロジー",
-        "文化"
-      ],
-      "link": "https://www.bbc.co.uk/news/articles/c39egklv2kwo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News US & Canada",
-      "historicalSummary": "ペンシルベニア州立大学におけるフラタニティ組織の内部で、新入会員がコカインの密売に関与していたという告発は、アメリカの大学文化とフラタニティの歴史に深く根ざした問題を浮き彫りにしています。フラタニティは、伝統的な友愛やリーダーシップ育成の場として理想化されてきましたが、その裏では排他的な慣習や危険な行為が横行してきたという側面も否定できません。この事件は、大学における薬物問題の複雑さ、そして組織文化が個人に与える影響について改めて問う機会を与えてくれます。過去には、大学のフラタニティ組織が政治的活動や社会運動に関与し、社会に大きな影響を与えた事例もありますが、今回の事件はより陰湿な形で社会に影を落とすものです。この事件を通じて、大学は学生のメンタルヘルスケア、薬物対策、そしてフラタニティ組織の透明性向上について真剣に取り組む必要があるでしょう。",
-      "threeLineSummary": [
-        "ペンシルベニア州立大学の学生たちがコカイン密売組織を運営していた疑い。",
-        "新入会員が薬物の梱包を指示され、フラタニティの伝統と結びついた可能性も。",
-        "大学の評判やフラタニティ文化への影響、薬物問題の再検討を促す事例。"
-      ]
-    },
-    {
-      "id": "4cea2j",
-      "title": "Ex-Abercrombie & Fitch chief fit to stand trial in sex trafficking case, judge says",
-      "summary": "Jeffries was declared \"mentally incompetent\" by a court last year and said to be suffering with dementia and late onset of Alzheimer's disease.",
-      "content": "Jeffries was declared \"mentally incompetent\" by a court last year and said to be suffering with dementia and late onset of Alzheimer's disease. ",
-      "region": "アメリカ",
-      "priority": "通常",
-      "time": "6時間前",
-      "relatedHistory": [
-        {
-          "year": "1920年",
-          "title": "児童売買禁止法（Mann Act）",
-          "description": "米国で児童売買を犯罪とする法律。初期の対策だが、執行は不十分だった。",
-          "significance": "人身売買対策の歴史的萌芽。現代の法整備の先駆け。"
-        },
-        {
-          "year": "1930年代",
-          "title": "大恐慌と人身売買の増加",
-          "description": "経済不況が人身売買を増加させ、脆弱な立場の人々を搾取した。",
-          "significance": "経済格差と犯罪の関連性。現代にも通じる問題。"
-        },
-        {
-          "year": "1970年",
-          "title": "児童虐待防止法",
-          "description": "児童虐待を防止し、児童の権利を保護するための法律。",
-          "significance": "児童の人権保護の重要性の認識。人身売買被害者への支援にも影響。"
-        },
-        {
-          "year": "2000年",
-          "title": "トラフィック・イン・パーソン法（TIP Act）",
-          "description": "米国が人身売買対策を強化するための法律。国際的な協力も推進。",
-          "significance": "国際的な人身売買対策の枠組み構築。現代の法整備の基礎。"
-        },
-        {
-          "year": "2023年",
-          "title": "オンラインプラットフォームと人身売買",
-          "description": "オンラインプラットフォームが人身売買の新たな市場となり、手口が巧妙化。",
-          "significance": "現代の人身売買の新たな潮流。企業・政府との連携の必要性。"
-        }
-      ],
-      "tags": [],
-      "link": "https://www.bbc.co.uk/news/articles/cdx81edn9g4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News US & Canada",
-      "historicalSummary": "元Abercrombie & Fitch幹部の人身売買事件への出廷可能性に関するニュースは、現代社会における企業倫理と犯罪の関係性を浮き彫りにするものです。被告が認知機能障害を抱えているという点は、責任能力の所在や刑事司法における特殊な考慮事項を提起します。過去には、大手企業が人身売買に関与した事例も存在し、今回の事件はそうした歴史的傾向を改めて示唆しています。特に2021年以降、オンラインプラットフォームの普及に伴い、人身売買の手口が巧妙化しており、企業がその対策を講じる必要性が高まっています。今回の事件の裁判は、企業の社会的責任と個人の尊厳、そして司法制度のあり方について重要な議論を促すでしょう。",
-      "threeLineSummary": [
-        "元Abercrombie & Fitch幹部が人身売買事件で裁判に臨む可能性。",
-        "被告は精神鑑定で認知機能障害と診断され、認知症を患っている。",
-        "この事件は企業倫理と犯罪の複雑な関係を示唆し、過去の人身売買事件との類似性を持つ。"
-      ]
-    },
-    {
-      "id": "unhkvr",
-      "title": "Sparks fly over Mamdani's 'hit list' against New York's rich home owners",
-      "summary": "A list of expensive New York homes has sparked a controversy as Mamdani implements a second home tax.",
-      "content": "A list of expensive New York homes has sparked a controversy as Mamdani implements a second home tax. ",
-      "region": "アメリカ",
-      "priority": "通常",
-      "time": "16時間前",
-      "relatedHistory": [
-        {
-          "year": "2021年",
-          "title": "アメリカの住宅市場における住宅価格の高騰",
-          "description": "パンデミック後の需要増加と供給不足により、アメリカ全土で住宅価格が急騰。特に都市部での上昇が顕著。",
-          "significance": "住宅問題の背景。高額な住宅は税制改革の動機。"
-        },
-        {
-          "year": "2022年",
-          "title": "ニューヨーク市の住宅価格と住宅所有率の分析",
-          "description": "ニューヨーク市の住宅価格は依然として高水準を維持。一方で、住宅所有率は低下傾向にあり、家賃負担が課題となっている。",
-          "significance": "ニューヨーク市の住宅問題の現状を示す。税制改革の必要性を裏付ける。"
-        },
-        {
-          "year": "2023年",
-          "title": "アメリカにおける富裕層への課税に関する議論の活発化",
-          "description": "富裕層の累進課税や、不動産所得への課税強化など、富裕層への課税に関する議論が政治的・社会的に活発化。",
-          "significance": "富裕層住宅への課税は、より広範な政策議論の一部。"
-        },
-        {
-          "year": "2023年",
-          "title": "ニューヨーク市の家賃規制に関する法整備",
-          "description": "ニューヨーク市では、家賃上昇を抑制するための法整備が進められている。ただし、その効果や影響については議論が分かれている。",
-          "significance": "住宅問題への対策として、既存の家賃規制の課題と新たな政策の必要性を示唆。"
-        },
-        {
-          "year": "2024年 (予測)",
-          "title": "都市部における住宅政策の多様化",
-          "description": "住宅価格高騰や住宅不足に対応するため、都市部では住宅供給の促進、家賃補助制度の拡充など、多様な住宅政策が検討・実施されると予想される。",
-          "significance": "今回の政策は、今後の都市部の住宅政策の方向性を示す可能性。"
-        }
-      ],
-      "tags": [
-        "テクノロジー"
-      ],
-      "link": "https://www.bbc.co.uk/news/articles/c75gp1ppk6no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News US & Canada",
-      "historicalSummary": "マンダニ氏によるニューヨークの富裕層住宅に対する第二の住宅税導入は、近年深刻化する都市部の住宅問題と格差の是正を目指す試みと捉えられる。過去には、高騰する住宅価格への対策として、同様の税制導入が提案されたり、一部地域で試験的に実施された事例がある。しかし、富裕層からの家賃収入の減少や移住を招く可能性など、財政面での懸念も指摘されている。この政策は、住宅所有の公平性、都市計画、そして財政運営といった多角的な視点から議論されるべきであり、過去の類似事例と比較しながら、その影響と持続可能性を慎重に評価する必要がある。",
-      "threeLineSummary": [
-        "マンダニ氏がニューヨークの富裕層の住宅を対象とした第二の住宅税を導入し、物議を醸している。",
-        "これは、都市部の住宅価格高騰と格差拡大への対策として、過去にも同様の政策が議論されている背景がある。",
-        "この政策は、住宅所有の公平性や財政の持続可能性について、社会的な議論を呼ぶ可能性がある。"
-      ]
-    },
-    {
-      "id": "1v6pv2",
-      "title": "US borrowing costs rise as attempts to ease rates prove short-lived",
-      "summary": "Economists said there were ongoing concerns over the level of borrowing as national debt passed $40tn.",
-      "content": "Economists said there were ongoing concerns over the level of borrowing as national debt passed $40tn.",
-      "region": "アメリカ",
-      "priority": "通常",
-      "time": "4時間前",
-      "relatedHistory": [
-        {
-          "year": "2008年",
-          "title": "リーマン・ショック",
-          "description": "大手金融機関リーマン・ブラザーズの破綻がきっかけで、世界的な金融危機が発生。金融市場の混乱と景気後退を引き起こした。",
-          "significance": "債務リスクの高まりと金融システムの脆弱性を露呈。今回の状況との共通点あり。"
-        },
-        {
-          "year": "2010年",
-          "title": "ギリシャ債務危機",
-          "description": "ギリシャの財政状況が悪化し、欧州債務危機へと発展。ユーロ圏全体の金融安定を脅かした。",
-          "significance": "政府債務の持続可能性と財政規律の重要性を示す事例。今回の状況との関連性あり。"
-        },
-        {
-          "year": "2021年",
-          "title": "米国コロナ経済対策法",
-          "description": "新型コロナウイルス感染症の影響を緩和するため、大規模な経済対策法が成立。財政支出が大幅に増加した。",
-          "significance": "政府債務の増加を加速させた要因の一つ。今回の金利上昇の背景にある。"
+          "title": "世界的なサプライチェーンの混乱",
+          "description": "パンデミックの影響で、世界中でサプライチェーンが混乱し、原材料価格が高騰した。",
+          "significance": "貿易政策とサプライチェーンの脆弱性への意識を高める。"
         },
         {
           "year": "2022年",
           "title": "ロシアのウクライナ侵攻",
-          "description": "ロシアによるウクライナへの軍事侵攻が勃発。エネルギー価格の高騰やサプライチェーンの混乱を引き起こした。",
-          "significance": "インフレ圧力と財政負担の増大。金融政策の変更を促す要因となった。"
+          "description": "エネルギー価格の高騰や食糧供給の混乱など、世界経済に深刻な影響を与えた。",
+          "significance": "地政学的リスクが貿易に与える影響を浮き彫りにした。"
         },
         {
           "year": "2023年",
-          "title": "米国金融政策の修正",
-          "description": "インフレ抑制のため、米連邦準備制度理事会（FRB）が利上げを継続。金利上昇による経済への影響が懸念されている。",
-          "significance": "今回の記事で言及されている金利上昇の直接的な原因。今後の景気動向に大きな影響を与える。"
+          "title": "G7サミットにおける貿易摩擦の議論",
+          "description": "G7首脳会議で、世界的な貿易摩擦やサプライチェーンの安定化について議論された。",
+          "significance": "多国間協調による貿易問題解決の重要性を再認識。"
+        }
+      ],
+      "tags": [
+        "経済",
+        "スポーツ"
+      ],
+      "link": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News US & Canada",
+      "historicalSummary": "カナダが米国の関税に「同額」で対抗するという決定は、両国間の貿易摩擦が激化していることを示しています。背景には、2018年から始まった米中貿易戦争以降、米国が先住民資源や安全保障を理由にカナダの鋼鉄・アルミニウム製品に高額な関税を課していることがあります。これは、トランプ政権下の保護主義的な貿易政策の一環であり、グローバルサプライチェーンへの影響も懸念されています。この対立は、北米自由貿易協定（NAFTA）の再交渉や、その後のUSMCA（米国・メキシコ・カナダ協定）にも影響を与えました。今回の関税対抗措置は、両国経済に深刻な打撃を与える可能性があり、国際貿易ルールや多国間協定のあり方を見直す契機となるかもしれません。",
+      "threeLineSummary": [
+        "カナダは米国の関税に「同額」で対抗すると発表。貿易交渉が崩壊した。",
+        "米国の関税は、先住民資源や安全保障を理由にカナダの鋼鉄・アルミニウム製品に課せられてきた。",
+        "両国関係の悪化は、北米経済や国際貿易構造に影響を与え、新たな貿易摩擦を生む可能性。"
+      ]
+    },
+    {
+      "id": "ygip0p",
+      "title": "Germany investigates Russia links to weapons cache discovered in woods, reports say",
+      "summary": "German intelligence believes guns found last year were for carrying out assassinations on behalf of Moscow, reports say.",
+      "content": "German intelligence believes guns found last year were for carrying out assassinations on behalf of Moscow, reports say.",
+      "region": "ヨーロッパ",
+      "priority": "通常",
+      "time": "1日前",
+      "relatedHistory": [
+        {
+          "year": "1962年",
+          "title": "キューバ危機",
+          "description": "ソ連がキューバに核ミサイルを配備したことで、米ソ間の核戦争の危機が発生。世界は核の脅威に直面。",
+          "significance": "冷戦時代の核戦争の危険性を示す。現代の地政学的リスクと比較できる。"
+        },
+        {
+          "year": "1989年",
+          "title": "ベルリンの壁崩壊",
+          "description": "東西ドイツの統一を象徴する出来事。冷戦終結への道を開き、東欧諸国の民主化を加速。",
+          "significance": "ソ連崩壊後の地政学的変化とロシアの影響力の低下を示す。"
+        },
+        {
+          "year": "1990年",
+          "title": "湾岸戦争",
+          "description": "サウジアラビアの石油を守るため、米多国籍軍がイラクを攻撃。国際社会における軍事介入の事例。",
+          "significance": "地域紛争と大国介入のリスクを示す。現代のウクライナ戦争との類似点がある。"
+        },
+        {
+          "year": "2008年",
+          "title": "グルジア紛争",
+          "description": "ロシアとグルジアの間で勃発した武力衝突。ロシアによるグルジアへの軍事介入は、地域における影響力を示す。",
+          "significance": "ロシアの近隣諸国への軍事的な干渉の歴史を反映。"
+        },
+        {
+          "year": "2022年",
+          "title": "ロシアによるウクライナ侵攻",
+          "description": "ロシアがウクライナに全面侵攻。ヨーロッパの安全保障体制を根本的に揺るがし、国際秩序に大きな影響を与えている。",
+          "significance": "現代におけるロシアの攻撃性と、ヨーロッパの安全保障環境の変化を示す。"
         }
       ],
       "tags": [],
-      "link": "https://www.bbc.co.uk/news/articles/cvg92p3ez17o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News US & Canada",
-      "historicalSummary": "米国の国家債務が40兆ドルを超えたことは、長年にわたる財政赤字と政府債務の増加を反映しており、過去の金融危機や景気後退のリスクを高める要因となります。2008年のリーマン・ショック以降、各国は低金利政策を維持してきましたが、近年はインフレ圧力の高まりから金利引き上げに転換しています。今回の金利上昇は、国家債務の規模と財政健全性への懸念が複合的に影響した結果と言えます。歴史的には、過剰な債務は経済成長の足かせとなり、金融システムへの信頼を損なうことが多く見られます。特に、過去5年間の新型コロナウイルス感染症による経済対策や、それに伴う財政支出の増加が、今回の状況をさらに悪化させている可能性があります。",
+      "link": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News Europe",
+      "historicalSummary": "ドイツがロシアとの関連性を調査している武器の隠し場所の発見は、ヨーロッパの安全保障環境における深刻な問題を示唆しています。2023年に発見されたこれらの武器は、モスクワの指示のもとで暗殺に使用される可能性があり、これはロシア政府が他国への影響力行使のために秘密裏の活動を行っていることを示唆するものです。過去には、冷戦時代における東西対立や、ソ連による東欧諸国への介入など、ロシアの影響力拡大の歴史的事例が存在します。現代においても、ウクライナ戦争やエネルギー政策などを通じたロシアの行動は、ヨーロッパの安全保障に対する挑戦と見なされています。今回の事件は、これらの歴史的な背景を踏まえると、ロシアの潜在的な脅威を早期に察知し、対応する必要性を改めて認識させるものです。",
       "threeLineSummary": [
-        "米国の借入コストが上昇。国家債務が40兆ドルを超えたことが背景。",
-        "金利緩和の試みが効果を見せていないため、財政状況への懸念が高まっている。",
-        "高金利が継続すれば、経済成長の鈍化や金融市場の不安定化につながる可能性あり。"
+        "ドイツ、森で発見された武器の隠し場所を巡りロシアとの関連性を調査中。",
+        "2023年に発見された武器は、モスクワの指示による暗殺に使用される可能性があったとみられている。",
+        "この事件は、ヨーロッパにおけるロシアの影響力拡大と安全保障上の懸念を浮き彫りにする可能性がある。"
       ]
     },
     {
@@ -2801,7 +2793,7 @@
       "content": "Officials say the bodies of the two Belgians, who went missing in 1992, were discovered after the Trift Glacier receded. ",
       "region": "ヨーロッパ",
       "priority": "通常",
-      "time": "11時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "1988年",
@@ -2851,7 +2843,7 @@
       "content": "The 26-year-old was jailed for a year after he sparked anger with an expletive-laden post about the sacred holiday.",
       "region": "ヨーロッパ",
       "priority": "通常",
-      "time": "18時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "1998年",
@@ -2903,7 +2895,7 @@
       "content": "Eight others were injured, local police say, with the cause of the fire still being investigated.",
       "region": "ヨーロッパ",
       "priority": "通常",
-      "time": "7時間前",
+      "time": "1日前",
       "relatedHistory": [
         {
           "year": "2021年",
